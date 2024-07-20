@@ -9,6 +9,7 @@ GEM
       console (~> 1.25, >= 1.25.2)
       fiber-annotation
       io-event (~> 1.6, >= 1.6.5)
+    base64 (0.2.0)
     bigdecimal (3.1.8)
     colorator (1.1.0)
     concurrent-ruby (1.3.3)
@@ -16,6 +17,7 @@ GEM
       fiber-annotation
       fiber-local (~> 1.1)
       json
+    csv (3.3.0)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -201,6 +203,8 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  base64
+  csv
   html-proofer (~> 5.0)
   jekyll
   jekyll-theme-chirpy

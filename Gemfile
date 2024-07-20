@@ -9,5 +9,5 @@ group :jekyll_plugins do
 end
 
 group :test do
-  gem "html-proofer", "~> 5.0"
+  gem "html-proofer", "< 5.0" # 5.0 미만의 버전을 사용
 end

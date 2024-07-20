@@ -218,7 +218,9 @@ exclude:
   - LICENSE
   - "*.config.js"
   - package*.json
-
+  - assets/js/dist/sw.min.js
+  _app/sw.min.js
+  
 jekyll-archives:
   enabled: [categories, tags]
   layouts:

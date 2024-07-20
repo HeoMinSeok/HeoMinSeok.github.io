@@ -11,12 +11,12 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3 # 최신 버전으로 업데이트
+      uses: actions/checkout@v3
 
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0' # Ruby 버전 지정
+        ruby-version: '3.0'
 
     - name: Install dependencies
       run: |

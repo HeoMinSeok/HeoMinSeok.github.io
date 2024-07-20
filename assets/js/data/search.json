@@ -1,0 +1,174 @@
+[
+  
+  {
+    "title": "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 1주차",
+    "url": "/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/",
+    "categories": "Next.js 직무교육, 1주차",
+    "tags": "유데미, udemy, 웅진씽크빅, 스나이퍼팩토리, Next.js",
+    "date": "2024-07-20 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "",
+    "content": ""
+  },
+  
+  {
+    "title": "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 1일차",
+    "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%80%EB%A6%AC/",
+    "categories": "Next.js 직무교육, JavaScript",
+    "tags": "JavaScript, 유데미, udemy, 웅진씽크빅, 스나이퍼팩토리, Next.js",
+    "date": "2024-07-15 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "🚀 JavaScript를 실행 시키는 방법1️⃣ node 명령어를 사용  우선 실행시킬 js 파일로 이동한다.    #  excd Desktop/my-app/next-study.js        node 명령어로 실행    node next-study.js      2️⃣ code runner 익스텐션을 사용 Code Runner  vscode Ext...",
+    "content": "🚀 JavaScript를 실행 시키는 방법1️⃣ node 명령어를 사용  우선 실행시킬 js 파일로 이동한다.    #  excd Desktop/my-app/next-study.js        node 명령어로 실행    node next-study.js      2️⃣ code runner 익스텐션을 사용 Code Runner  vscode Extensions -&gt; code runner 검색 후 설치  실행시킬 js 파일에서 출력할 결과 console.log 작성 후 ⇧ + space3️⃣ html 파일에서 script 태그를 사용  외부 스크립트          head 태그 사이        &lt;head&gt;  &lt;meta charset=\"UTF-8\"&gt;  &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;  &lt;title&gt;Document&lt;/title&gt;  &lt;script src=\"js 파일 경로\"&gt;&lt;/script&gt;&lt;/html&gt;              🔥 속성        async : async 속성을 사용하면 스크립트는 비동기적으로 로드된다. 즉, HTML 파싱이 진행되는 동안 스크립트 파일을 비동기적으로 다운로드하고, 다운로드가 완료되면 바로 실행된다.    defer : defer 속성을 사용하면 스크립트는 비동기적으로 로드되지만, HTML 파싱이 완료된 후에 실행된다. 이는 HTML 문서의 파싱이 끝날 때까지 스크립트가 실행되지 않음을 보장해준다.                            속성          실행 시점          실행 순서          비고                                      async          스크립트 다운로드 완료 즉시 실행          순서 보장 안됨          독립적인 스크립트에 적합                          defer          HTML 파싱 완료 후 실행          순서 보장됨          DOM 의존 스크립트에 적합                            body 태그 사이        &lt;body&gt;&lt;!-- body content --&gt;  &lt;script src=\"js 파일 경로\"&gt;&lt;/script&gt;&lt;/body&gt;        🐥 모든 DOM 요소가 파싱된 후 스크립트가 로드    내부 스크립트   ➡️ 🐥 말 그대로 HTML 파일 내부의 스크립트를 작성한다. 공부할 때 말고는 왠만하면 쓰지말자 !4️⃣ 웹 브라우저의 개발자 도구 ➡️ Console 탭에서 작성하는 방법✔️ 크롬 -&gt; 마우스 우클릭 -&gt; 검사 -&gt; Console 탭  🚀 변수 / 상수1️⃣ 상수  상수는 값을 한 번 할당하면 변경할 수 없는 변수  const 키워드를 사용하여 선언2️⃣ 변수  변수는 변하는 값을 저장할 수 있는 공간  JavaScript에서 변수를 선언할 때 var, let, const 키워드를 사용          var: 함수 스코프, 재선언 가능, 재할당 가능 let: 블록 스코프, 재선언 불가, 재할당 가능 const: 블록 스코프, 재선언 불가, 재할당 불가, 단, 객체나 배열의 경우 내부 값은 변경 가능      3️⃣ 사용 지침  var는 사용하지 않음  let은 재할당이 필요할 때 사용  const는 재할당이 필요 없을 때 사용  ❗️ 습관적으로 사용하도록 노력🚀 기타 기호  ; -&gt; 세미콜론  : -&gt; 콜론  ” -&gt; 큰따옴표  ’ -&gt; 작은따옴표  `` -&gt; 백틱  [] -&gt; 대괄호  {} -&gt; 중괄호  () -&gt; 소괄호"
+  },
+  
+  {
+    "title": "VITE - Spring Boot CORS 설정",
+    "url": "/posts/CORS-%EC%84%A4%EC%A0%95/",
+    "categories": "프로젝트, PETSTAGRAM",
+    "tags": "React, Spring Boot",
+    "date": "2024-07-11 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "웹 개발에서의 CORS 설정CORS란?CORS(Cross-Origin Resource Sharing)는 웹 애플리케이션이 하나의 출처에서 실행되는 리소스가 다른 출처의 리소스에 접근할 수 있도록 허용하는 보안 기능이다. 웹 브라우저는 보안상의 이유로 기본적으로 다른 출처(도메인, 프로토콜, 포트)의 리소스에 접근하는 것을 제한한다. 이러한 제약을 동일...",
+    "content": "웹 개발에서의 CORS 설정CORS란?CORS(Cross-Origin Resource Sharing)는 웹 애플리케이션이 하나의 출처에서 실행되는 리소스가 다른 출처의 리소스에 접근할 수 있도록 허용하는 보안 기능이다. 웹 브라우저는 보안상의 이유로 기본적으로 다른 출처(도메인, 프로토콜, 포트)의 리소스에 접근하는 것을 제한한다. 이러한 제약을 동일 출처 정책(Same-Origin Policy)이라고 하며, 이를 우회하기 위해 CORS가 도입되었다.CORS 설정하는 이유웹 애플리케이션 개발에서 CORS를 설정하는 주된 이유는 다음과 같다.  다른 출처의 API에 접근하기 위해:                  웹 애플리케이션은 자주 다른 출처의 API와 상호작용한다. 프론트엔드에서 서버 API를 호출할 때 서버가 다른 도메인에 있을 경우, 브라우저는 보안상의 이유로 기본적으로 이러한 요청을 차단한다. CORS 설정을 통해 이러한 요청을 허용할 수 있다.              보안 유지:                  CORS는 보안 정책을 유지하면서도 특정 출처에서의 요청을 허용할 수 있도록 한다. 이를 통해 민감한 데이터에 대한 무단 접근을 방지하고, 신뢰할 수 있는 출처에서만 리소스 접근을 허용할 수 있다.              개발 환경에서의 편의성:                  개발 중에는 프론트엔드와 백엔드 서버가 종종 다른 도메인에서 실행된다. 예를 들어, 본인 프로젝트의 로컬 환경에서 프론트엔드는 http://localhost:5173에서, 백엔드는 http://localhost:8088에서 실행하였다. 이 경우, CORS 설정을 통해 개발 중에 발생하는 도메인 간의 요청 문제를 해결할 수 있다. 이를 통해 프론트엔드와 백엔드를 원활하게 통합하고 테스트할 수 있다.            Vite에서 CORS 설정Vite를 사용할 때 CORS 문제를 해결하기 위해서는 vite.config.js 파일에서 프록시 설정을 해줄 수 있다.import { defineConfig } from \"vite\";import react from \"@vitejs/plugin-react\";export default defineConfig({    plugins: [react()],    server: {        proxy: {            \"/api\": {                target: \"http://localhost:8088\",                changeOrigin: true,                rewrite: (path) =&gt; path.replace(/^\\/api/, \"\"),            },        },    },});SpringBoot에서 CORS 설정메인 애플리케이션 클래스에서 CORS 설정을 추가할 수 있다.import com.petstagram.config.AuditorAwareImpl;import org.springframework.boot.SpringApplication;import org.springframework.boot.autoconfigure.SpringBootApplication;import org.springframework.context.annotation.Bean;import org.springframework.data.domain.AuditorAware;import org.springframework.data.jpa.repository.config.EnableJpaAuditing;import org.springframework.data.jpa.repository.config.EnableJpaRepositories;import org.springframework.scheduling.annotation.EnableScheduling;import org.springframework.web.servlet.config.annotation.CorsRegistry;import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;@EnableJpaRepositories@EnableJpaAuditing@EnableScheduling@SpringBootApplicationpublic class PetstagramApplication {    @Bean    public AuditorAware&lt;String&gt; auditorProvide() {        return new AuditorAwareImpl();    }    public static void main(String[] args) {        SpringApplication.run(PetstagramApplication.class, args);    }    @Bean    public WebMvcConfigurer corsConfigurer() {        return new WebMvcConfigurer() {            @Override            public void addCorsMappings(CorsRegistry registry) {                registry.addMapping(\"/**\")                         .allowedMethods(\"*\")                         .allowedOrigins(\"http://localhost:5173\");            }        };    }}"
+  },
+  
+  {
+    "title": "🐥 My Tech Stack",
+    "url": "/posts/MINDDO-TECH-STACK/",
+    "categories": "Tech Stack, Minddo",
+    "tags": "React, Spring Boot, Vite",
+    "date": "2024-06-30 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "",
+    "content": ""
+  },
+  
+  {
+    "title": "JWT + 카카오 소셜 로그인 (5)",
+    "url": "/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-(5)/",
+    "categories": "프로젝트, PETSTAGRAM",
+    "tags": "React, Spring Boot, JWT, Social Login, Kakao, OAuth2.0",
+    "date": "2024-06-13 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "📌 Server Side4. 클라이언트로부터 전달 받은 인가 코드를 이용하여 카카오 서버에 토큰 요청  먼저 클라이언트로부터 인가 코드를 받아오는 엔드포인트에서, 카카오 서버에 액세스 토큰을 요청하는 서비스를 호출/* AuthController.java */@GetMapping(\"/kakao\")public ResponseEntity&lt;UserDTO...",
+    "content": "📌 Server Side4. 클라이언트로부터 전달 받은 인가 코드를 이용하여 카카오 서버에 토큰 요청  먼저 클라이언트로부터 인가 코드를 받아오는 엔드포인트에서, 카카오 서버에 액세스 토큰을 요청하는 서비스를 호출/* AuthController.java */@GetMapping(\"/kakao\")public ResponseEntity&lt;UserDTO&gt; kakaoLogin(@RequestParam String code) {  UserDTO userDTO = authService.kakaoLogin(code);  return ResponseEntity.ok(userDTO);}/* AuthService - kakaoLogin 메소드 */public UserDTO kakaoLogin(String code) {  KakaoTokenDto kakaoTokenDto = getKakaoAccessToken(code);  String accessToken = kakaoTokenDto.getAccess_token();  /* ··· */}  getKakaoAccessToken : 카카오 서버에 액세스 토큰 요청 부분코드 보기    /* AuthService - getKakaoAccessToken 메소드 */public KakaoTokenDto getKakaoAccessToken(String code) {  HttpHeaders headers = new HttpHeaders();  headers.add(\"Content-type\", \"application/x-www-form-urlencoded;charset=utf-8\");  MultiValueMap&lt;String, String&gt; params = new LinkedMultiValueMap&lt;&gt;();  params.add(\"grant_type\", \"authorization_code\");  params.add(\"client_id\", KAKAO_CLIENT_ID);  params.add(\"redirect_uri\", KAKAO_REDIRECT_URI);  params.add(\"code\", code);  params.add(\"client_secret\", KAKAO_CLIENT_SECRET);  HttpEntity&lt;MultiValueMap&lt;String, String&gt;&gt; request = new HttpEntity&lt;&gt;(params, headers);  RestTemplate restTemplate = new RestTemplate();  ResponseEntity&lt;String&gt; response = restTemplate.exchange(          \"https://kauth.kakao.com/oauth/token\",          HttpMethod.POST,          request,          String.class  );/* ··· */}      5. 카카오 서버에서 백엔드 서버로 토큰 발행  getKakaoAccessToken : 카카오 서버로부터 액세스 토큰 발급 부분코드 보기    /* AuthService - getKakaoAccessToken 메소드 */public KakaoTokenDto getKakaoAccessToken(String code) {  /* ··· */  ObjectMapper objectMapper = new ObjectMapper();  objectMapper.registerModule(new JavaTimeModule());  objectMapper.configure(DeserializationFeatureFAIL_ON_UNKNOWN_PROPERTIES, false);  KakaoTokenDto kakaoTokenDto;  try {    kakaoTokenDto = objectMapper.readValue(response.getBody(), KakaoTokenDto.class);  } catch (Exception e) {    throw new RuntimeException(\"카카오 토큰을 받아오는 데 실패했습니다.\");  }  return kakaoTokenDto;}      6.❗️ 토큰 발급이 완료되면 사용자 정보 조회 후 JWT 토큰 생성코드 보기    /* AuthService - kakaoLogin 메소드 */public UserDTO kakaoLogin(String code) {  KakaoTokenDto kakaoTokenDto = getKakaoAccessToken(code);  String accessToken = kakaoTokenDto.getAccess_token();  KakaoAccountDto kakaoUserInfoDto = getKakaoUserInfo(accessToken);  /* ··· */  UserEntity user = userRepository.findByEmail(email).orElseGet(() -&gt; {  /* ··· */  });  String jwt = jwtUtils.generateToken(user);  String refreshToken = jwtUtils.generateRefreshToken(new HashMap&lt;&gt;(), user);  UserDTO response = UserDTO.toDTO(user);  response.setToken(jwt);  response.setRefreshToken(refreshToken);  return response;}            발급받은 accessToken을 사용하여 getKakaoUserInfo 메소드를 통해 카카오 서버의 사용자 정보를 조회    조회한 사용자 정보를 이용하여 DB에 해당 사용자 존재 여부 확인 후 사용자 처리    JWT 토큰 및 리프레시 토큰을 생성    UserDTO 객체를 생성 및 사용자 정보를 담고, 토큰을 설정하여 반환  ✔️ 끝으로  반환한 JWT 토큰을 클라이언트 쪽에서 받아서 사용자 로그인 처리를 완료한다.  이 과정은 클라이언트와 서버 간의 인증을 통해 사용자에게 보다 안전하고 편리한 로그인 경험을 제공한다.  또한, JWT 토큰을 사용함으로써 서버 간의 상태를 유지하지 않고도 인증을 처리할 수 있어 확장성과 보안성을 높일 수 있었다."
+  },
+  
+  {
+    "title": "JWT + 카카오 소셜 로그인 (4)",
+    "url": "/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-(4)/",
+    "categories": "프로젝트, PETSTAGRAM",
+    "tags": "React, Spring Boot, JWT, Social Login, Kakao, OAuth2.0",
+    "date": "2024-06-12 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "React + SpringBoot + Kakao 소셜 로그인 동작 과정📌 Client Side1. 카카오 로그인 클릭 ➡ 카카오 서버에 인가코드 요청&lt;a href={KAKAO_AUTH_URL}&gt;  &lt;img src={icons.kakaoLogin} alt=\"KakaoLogo\" className=\"kakao-login-icon\" /&gt;...",
+    "content": "React + SpringBoot + Kakao 소셜 로그인 동작 과정📌 Client Side1. 카카오 로그인 클릭 ➡ 카카오 서버에 인가코드 요청&lt;a href={KAKAO_AUTH_URL}&gt;  &lt;img src={icons.kakaoLogin} alt=\"KakaoLogo\" className=\"kakao-login-icon\" /&gt;&lt;/a&gt;const CLIENT_ID = import.meta.env.VITE_KAKAO_CLIENT_ID;const REDIRECT_URI = import.meta.env.VITE_KAKAO_REDIRECT_URI;export const KAKAO_AUTH_URL = `https://kauth.kakao.com/oauth/authorize?client_id=${CLIENT_ID}&amp;redirect_uri=${REDIRECT_URI}&amp;response_type=code`;  🐰 카카오 서버에 앱 키와 Redirect URI, 응답 유형을 포함하여 인가 코드를 요청하는데 이 요청은 사용자가 카카오 로그인 페이지에서 인증 및 동의를 완료한 후, 설정된 Redirect URI로 인가 코드를 전달받기 위한 것2. 설정한 Redirect URI인 /login/oauth2/callback/kakao 경로로 리다이렉션 하기 위한 KakaoCallback 컴포넌트 라우트 설정&lt;Route  path=\"/login/oauth2/callback/kakao\"  element={&lt;KakaoCallback setIsLoggedIn={setIsLoggedIn} /&gt;}/&gt;3-1. 렌더링한 KakaoCallback 컴포넌트에서 인가 코드 추출 및 사용자 처리  이 컴포넌트에서는 URL에 포함된 인증 코드를 추출하여 백엔드 서버에 액세스 토큰을 요청하고, JWT 토큰을 받게되면 로컬 스토리지에 저장하고, 로그인 처리를 업데이트 한 후 메인 홈으로 네비게이션한다.코드 보기    useEffect(() =&gt; {  const fetchKakaoToken = async () =&gt; {    const code = new URLSearchParams(location.search).get(\"code\");    if (code) {      try {        const response = await KakaoService.getAccessToken(code);        const token = response.token;        if (token) {          localStorage.setItem(\"token\", token);          setIsLoggedIn(true);          navigate(\"/\");        } else {          console.error(\"로그인 실패:\", response.message);        }      } catch (error) {        console.error(\"카카오 로그인 에러:\", error);      }    }  };  fetchKakaoToken();}, [location, navigate, setIsLoggedIn]);      3-2. 백엔드 서버로 인가 코드 전달  KakaoService는 인가 코드를 백엔드 서버로 전달하여 액세스 토큰을 요청코드 보기    static async getAccessToken(code) {    try {      const response = await axios.get(        `${KakaoService.BASE_URL}/login/kakao?code=${code}`      );      return response.data;    } catch (error) {      console.error(\"로그인 실패: \", error.message);      throw new Error(\"로그인 실패: \" + error.message);    }}      "
+  },
+  
+  {
+    "title": "JWT + 카카오 소셜 로그인 (3)",
+    "url": "/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-(3)/",
+    "categories": "프로젝트, PETSTAGRAM",
+    "tags": "React, Spring Boot, JWT, Social Login, Kakao, OAuth2.0",
+    "date": "2024-06-11 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "          카카오 로그인 (1)            카카오 로그인 (2)  1. 카카오 디벨로퍼 설정        Kakao Developers    카카오 API를 활용하여 다양한 애플리케이션을 개발해보세요. 카카오 로그인, 메시지 보내기, 친구 API, 인공지능 API 등을 제공합니다.    developers.kakao.com    위의 ...",
+    "content": "          카카오 로그인 (1)            카카오 로그인 (2)  1. 카카오 디벨로퍼 설정        Kakao Developers    카카오 API를 활용하여 다양한 애플리케이션을 개발해보세요. 카카오 로그인, 메시지 보내기, 친구 API, 인공지능 API 등을 제공합니다.    developers.kakao.com    위의 링크에서 애플리케이션 등록을 해준다.애플리케이션 추가하기  플랫폼 ➡️ Web 등록      본인의 React, SpringBoot 도메인 등록    기본 도메인은 카카오 서버에 먼저 요청을 보내는 React 도메인 입력  플랫폼 등록  Redirect URI 설정Redirect URI 등록❗️Redirect URI란?  Redirect URI는 OAuth2.0 인가 과정을 완료한 후, 사용자의 인증 결과(인증 코드, 토큰 등)를 전달하기 위해 사용자를 리다이렉션하는 URL이다."
+  },
+  
+  {
+    "title": "JWT + 카카오 소셜 로그인 (2)",
+    "url": "/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-(2)/",
+    "categories": "프로젝트, PETSTAGRAM",
+    "tags": "React, Spring Boot, JWT, Social Login, Kakao, OAuth2.0",
+    "date": "2024-06-10 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "📌 React와 Spring Boot를 사용하여 JWT를 기반으로 로그인 세션을 관리하는 과정1. React에서 API 요청React 클라이언트에서는 이메일과 비밀번호를 입력 후 로그인 API를 호출하여 사용자 인증을 처리코드 보기    import axios from 'axios';class UserService {    static BASE_URL...",
+    "content": "📌 React와 Spring Boot를 사용하여 JWT를 기반으로 로그인 세션을 관리하는 과정1. React에서 API 요청React 클라이언트에서는 이메일과 비밀번호를 입력 후 로그인 API를 호출하여 사용자 인증을 처리코드 보기    import axios from 'axios';class UserService {    static BASE_URL = 'http://localhost:8088';    static async login(email, password) {        const response = await axios.post(`${this.BASE_URL}/user/login`, {            email,            password,        });        return response.data;    }}            axios.post를 사용하여 로그인 API를 호출  2. 로그인 및 토큰 재발급 컨트롤러서버단 컨트롤러에서는 로그인 및 토큰 재발급 요청을 처리코드 보기    @RestController@RequiredArgsConstructor@RequestMapping(\"/user\")public class UserController {    private UserService userService;    @PostMapping(\"/login\")    public ResponseEntity&lt;UserDTO&gt; login(@RequestBody UserDTO userDTO) {        return ResponseEntity.ok(userService.login(userDTO));    }    // 새로고침 토큰    @PostMapping(\"/refresh\")    public ResponseEntity&lt;UserDTO&gt; refreshToken(@RequestBody UserDTO userDTO) {        return ResponseEntity.ok(userService.refreshToken(userDTO));    }}            /login 엔드포인트에서 사용자 인증 후 JWT 토큰을 반환    /refresh 엔드포인트에서 새로고침 토큰을 사용해 새로운 JWT 토큰을 반환  3. UserService 클래스UserService 클래스에서는 사용자 로그인 및 토큰 재발급 로직을 구현코드 보기    public class UserService {    public UserDTO login(UserDTO userDTO) {        authenticationManager.authenticate(            new UsernamePasswordAuthenticationToken(userDTO.getEmail(), userDTO.getPassword())        );        UserEntity user = userRepository.findByEmail(userDTO.getEmail())            .orElseThrow(() -&gt; new IllegalArgumentException(\"사용자를 찾을 수 없습니다. 이메일: \" + userDTO.getEmail()));        // 조회된 사용자 정보를 바탕으로 JWT 토큰 생성        String jwt = jwtUtils.generateToken(user);        // 비어있는 맵과 사용자 정보를 바탕으로 새로고침 토큰 생성        String refreshToken = jwtUtils.generateRefreshToken(new HashMap&lt;&gt;(), user);        UserDTO response = UserDTO.toDTO(user);        response.setToken(jwt);        response.setRole(user.getRole());        response.setRefreshToken(refreshToken);        return response;    }    public UserDTO refreshToken(UserDTO userDTO) {        UserDTO response = new UserDTO();        // 토큰에서 사용자 이메일 추출        String ourEmail = jwtUtils.extractUsername(userDTO.getToken());        // 이메일로 사용자 정보 조회, 없으면 예외 발생        UserEntity users = userRepository.findByEmail(ourEmail)            .orElseThrow(() -&gt; new UsernameNotFoundException(\"사용자를 찾을 수 없습니다. 이메일: \" + ourEmail));        // 토큰 유효성 검사 후 유효하다면 새로운 토큰 생성        if (jwtUtils.isTokenValid(userDTO.getToken(), users)) {            String jwt = jwtUtils.generateToken(users);            response.setToken(jwt);             response.setRefreshToken(userDTO.getToken());           }        return response;    }}            로그인 시 사용자 인증을 처리하고 JWT 및 새로고침 토큰을 생성    새로고침 토큰 유효성을 검사하고, 유효하다면 새로운 JWT를 생성  4. JWTUtils 클래스JWTUtils 클래스에서는 JWT 생성 및 검증에 필요한 유틸리티 메서드를 구현코드 보기    package com.petstagram.service.utils;import io.jsonwebtoken.Claims;import io.jsonwebtoken.Jwts;import org.springframework.security.core.userdetails.UserDetails;import org.springframework.stereotype.Component;import javax.crypto.SecretKey;import javax.crypto.spec.SecretKeySpec;import java.nio.charset.StandardCharsets;import java.util.Base64;import java.util.Date;import java.util.HashMap;import java.util.function.Function;@Componentpublic class JWTUtils {    private SecretKey key;    private static final long ACCESS_TOKEN_EXPIRATION_TIME = 1800000; // 30분    private static final long REFRESH_TOKEN_EXPIRATION_TIME = 604800000; // 7일    public JWTUtils(@Value(\"${jwt.secret}\") String secretString) {        byte[] keyBytes = Base64.getDecoder().decode(secretString.getBytes(StandardCharsets.UTF_8));        this.key = new SecretKeySpec(keyBytes, \"HmacSHA256\");    }    public String generateToken(UserDetails userDetails){        return Jwts.builder()                .setSubject(userDetails.getUsername())                .setIssuedAt(new Date(System.currentTimeMillis()))                .setExpiration(new Date(System.currentTimeMillis() + ACCESS_TOKEN_EXPIRATION_TIME))                .signWith(key)                .compact();    }    public String generateRefreshToken(HashMap&lt;String, Object&gt; claims, UserDetails userDetails){        return Jwts.builder()                .setClaims(claims)                .setSubject(userDetails.getUsername())                .setIssuedAt(new Date(System.currentTimeMillis()))                .setExpiration(new Date(System.currentTimeMillis() + REFRESH_TOKEN_EXPIRATION_TIME))                .signWith(key)                .compact();    }    public String extractUsername(String token){        return extractClaims(token, Claims::getSubject);    }    private &lt;T&gt; T extractClaims(String token, Function&lt;Claims, T&gt; claimsResolver){        return claimsResolver.apply(Jwts.parserBuilder().setSigningKey(key).build().parseClaimsJws(token).getBody());    }    public boolean isTokenValid(String token, UserDetails userDetails){        final String username = extractUsername(token);        return (username.equals(userDetails.getUsername()) &amp;&amp; !isTokenExpired(token));    }    public boolean isTokenExpired(String token){        return extractClaims(token, Claims::getExpiration).before(new Date());    }}            generateToken 메서드는 액세스 토큰을 생성    generateRefreshToken 메서드는 새로고침 토큰을 생성    extractUsername 메서드는 토큰에서 사용자 이름을 추출    isTokenValid 메서드는 토큰 유효성을 검사합니다.출  5. OurUserDetailsService 클래스OurUserDetailsService 클래스는 사용자 인증에 필요한 사용자 정보를 데이터베이스에서 조회코드 보기    package com.petstagram.service.utils;import com.petstagram.repository.UserRepository;import org.springframework.beans.factory.annotation.Autowired;import org.springframework.security.core.userdetails.UserDetails;import org.springframework.security.core.userdetails.UserDetailsService;import org.springframework.security.core.userdetails.UsernameNotFoundException;import org.springframework.stereotype.Service;@Servicepublic class OurUserDetailsService implements UserDetailsService {    @Autowired    private UserRepository userRepository;    @Override    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {        return userRepository.findByEmail(username)                .orElseThrow(() -&gt; new IllegalArgumentException(\"사용자를 찾을 수 없습니다. email = \" + username));    }}            loadUserByUsername 메서드는 이메일로 사용자 정보를 조회  "
+  },
+  
+  {
+    "title": "JWT + 카카오 소셜 로그인 (1)",
+    "url": "/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8/",
+    "categories": "프로젝트, PETSTAGRAM",
+    "tags": "React, Spring Boot, JWT, Social Login, Kakao, OAuth2.0",
+    "date": "2024-06-09 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "          로그인 UI            카카오 로그인  JWT(Jason Web Token)JWT(JSON Web Token)는 두 개체 간에 정보를 JSON 객체로 안전하게 전송하기 위한 개방형 표준( RFC7519 )이고, 디지털 서명으로 검증되고 신뢰될 수 있다. JWT는 주로 사용자가 로그인한 후 요청마다 JWT를 포함시켜 허용된 리...",
+    "content": "          로그인 UI            카카오 로그인  JWT(Jason Web Token)JWT(JSON Web Token)는 두 개체 간에 정보를 JSON 객체로 안전하게 전송하기 위한 개방형 표준( RFC7519 )이고, 디지털 서명으로 검증되고 신뢰될 수 있다. JWT는 주로 사용자가 로그인한 후 요청마다 JWT를 포함시켜 허용된 리소스에 접근하는 권한 부여와 당사자 간에 안전하게 정보를 전송하는 정보 교환에 사용된다. 서명된 토큰은 클레임의 무결성을 보장하고, 공개/비공개 키를 사용하면 발신자의 신원을 확인할 수 있다.JWT의 구성요소JWT(JSON Web Token)는 (.)으로 구분된 세 부분으로 구성되어있다.  헤더(Header): 토큰 유형과 서명 알고리즘을 포함  페이로드(Payload): 사용자 및 추가 데이터(클레임)를 포함  서명(Signature): 헤더와 페이로드의 무결성을 검증하는 서명JWT 동작 원리React와 Spring Boot로 JWT를 사용한 로그인 구현의 동작 과정은 다음과 같다.1. 로그인 및 토큰 발급  ID/PW 로그인 요청: 클라이언트(React)가 서버(Spring Boot)에 사용자 ID와 비밀번호를 보내 로그인 요청을 한다.  토큰 발급: 서버는 ID와 비밀번호를 검증한 후, Access Token과 Refresh Token을 생성하여 클라이언트에 응답한다.  API 요청: 클라이언트는 이후의 API 요청 시 Access Token을 HTTP 헤더에 포함하여 서버에 요청을 보낸다.2. 토큰 갱신  Access Token 만료 응답: 서버가 Access Token의 만료를 감지하고 클라이언트에 만료 응답을 보낸다.  토큰 재발급 요청: 클라이언트는 Refresh Token을 사용하여 새로운 Access Token과 Refresh Token의 재발급을 서버에 요청한다.  새 토큰 발급: 서버는 Refresh Token을 검증하고, 새로운 Access Token과 Refresh Token을 발급하여 클라이언트에 응답한다.이 과정은 Access Token의 짧은 유효기간으로 인해 자주 갱신이 필요할 때, Refresh Token을 통해 새로운 Access Token을 발급받아 지속적인 인증 상태를 유지하게 한다.  [참조]  https://jwt.io/introduction"
+  },
+  
+  {
+    "title": "🐶 PETSTAGRAM 프로젝트",
+    "url": "/posts/Petstagram-Project/",
+    "categories": "프로젝트, PETSTAGRAM",
+    "tags": "React, Spring Boot, Vite",
+    "date": "2024-06-08 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "펫스타그램‘펫스타그램’은 반려동물과 사람이 함께 삶을 추구하는 시대를 반영하여 만든 웹 플랫폼입니다.사용자들은 반려동물 사진과 동영상을 업로드하고 공유하며, 다양한 반려동물 프로필을 확인하고 정보를 공유함으로써 새로운 친구를 사귈 수 있는 커뮤니티를 형성하고자 만들게 되었습니다.",
+    "content": "펫스타그램‘펫스타그램’은 반려동물과 사람이 함께 삶을 추구하는 시대를 반영하여 만든 웹 플랫폼입니다.사용자들은 반려동물 사진과 동영상을 업로드하고 공유하며, 다양한 반려동물 프로필을 확인하고 정보를 공유함으로써 새로운 친구를 사귈 수 있는 커뮤니티를 형성하고자 만들게 되었습니다."
+  }
+  
+]
+

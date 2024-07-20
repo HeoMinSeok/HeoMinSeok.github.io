@@ -1,4 +1,348 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://heominseok.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://heominseok.github.io/" rel="alternate" type="text/html" hreflang="ko-KR" /><updated>2024-07-20T19:55:42+09:00</updated><id>https://heominseok.github.io/feed.xml</id><title type="html">MINDDO</title><subtitle>MINDDO의 코딩 기록장</subtitle><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 1주차</title><link href="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 1주차" /><published>2024-07-20T00:00:00+09:00</published><updated>2024-07-20T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80</id><content type="html" xml:base="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/"><![CDATA[]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="1주차" /><category term="유데미" /><category term="udemy" /><category term="웅진씽크빅" /><category term="스나이퍼팩토리" /><category term="Next.js" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 1일차</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%80%EB%A6%AC/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 1일차" /><published>2024-07-15T00:00:00+09:00</published><updated>2024-07-15T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%80%EB%A6%AC</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%80%EB%A6%AC/"><![CDATA[<h2 id="-javascript를-실행-시키는-방법">🚀 JavaScript를 실행 시키는 방법</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://heominseok.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://heominseok.github.io/" rel="alternate" type="text/html" hreflang="ko-KR" /><updated>2024-07-21T00:03:31+09:00</updated><id>https://heominseok.github.io/feed.xml</id><title type="html">MINDDO</title><subtitle>MINDDO의 코딩 기록장</subtitle><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1</title><link href="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1" /><published>2024-07-20T00:00:00+09:00</published><updated>2024-07-20T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80</id><content type="html" xml:base="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/"><![CDATA[]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="회고록" /><category term="유데미" /><category term="udemy" /><category term="웅진씽크빅" /><category term="스나이퍼팩토리" /><category term="Next.js" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day3</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(3)/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day3" /><published>2024-07-17T00:00:00+09:00</published><updated>2024-07-17T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(3)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(3)/"><![CDATA[<style>
+  .link-container {
+    display: flex;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+  }
+  .link-container img {
+    width: 300px;
+    height: auto;
+    padding: 0 10px;
+    margin-right: 70px;
+  }
+  .link-content {
+    margin: auto 20px;
+    padding: 0;
+  }
+  .link-content h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .link-content p {
+    color: gray;
+    margin-top: 5px;
+    display: block;
+  }
+</style>
+
+<h2 id="-함수">🚀 함수</h2>
+<h3 id="1️⃣-함수-선억식">1️⃣ 함수 선억식</h3>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">function</code> 키워드를 사용하여 함수 정의</li>
+  <li>호이스팅 ✅, 정의되기 전 호출 가능
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>  <span class="kd">function</span> <span class="nf">함수이름</span><span class="p">(</span><span class="nx">매개변수</span><span class="p">){</span>
+<span class="c1">//</span>
+<span class="k">return</span> <span class="nx">반한값</span><span class="p">;</span>
+  <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="2️⃣-함수-표현식">2️⃣ 함수 표현식</h3>
+<ul>
+  <li>변수에 익명 함수나 기명함수를 할당하는 방식으로 정의</li>
+  <li>호이스팅 ❎, 정의된 후에만 호출 가능
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>  <span class="kd">const</span> <span class="nx">함수이름</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">매개변수</span><span class="p">)</span> <span class="p">{</span>
+<span class="c1">//</span>
+<span class="k">return</span> <span class="nx">반한값</span><span class="p">;</span>
+  <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+</ul>
+
+<h4 id="️-익명-함수--이름-없는-함수-주로-콜백-함수로-사용">✔️ <strong>익명 함수</strong> ? 이름 없는 함수, 주로 콜백 함수로 사용</h4>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>  <span class="kd">const</span> <span class="nx">익명함수</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">//</span>
+  <span class="p">};</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+<h4 id="️-기명-함수--이름-있는-함수-스택-트레이스에서-함수-이름-확인-가능">✔️ <strong>기명 함수</strong> ? 이름 있는 함수, 스택 트레이스에서 함수 이름 확인 가능</h4>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>  <span class="kd">const</span> <span class="nx">기명함수</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="nf">함수이름</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">//</span>
+  <span class="p">};</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+<h3 id="3️⃣-화살표-함수">3️⃣ 화살표 함수</h3>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">=&gt;</code> 문법 사용해 간결하게 함수 정의 가능</li>
+  <li><code class="language-plaintext highlighter-rouge">this</code> 바인딩이 정적으로 결정</li>
+  <li><code class="language-plaintext highlighter-rouge">arguments</code> 객체 사용 불가</li>
+  <li>생성자 함수로 사용 불가</li>
+  <li>메소드로 사용 불가</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>  <span class="kd">const</span> <span class="nx">함수이름</span> <span class="o">=</span> <span class="p">(</span><span class="nx">매개변수</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="c1">//</span>
+    <span class="k">return</span> <span class="nx">반환값</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="kd">const</span> <span class="nx">함수이름</span> <span class="o">=</span> <span class="nx">매개변수</span> <span class="o">=&gt;</span> <span class="nx">반한값</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="-호이스팅">🚀 호이스팅</h2>
+
+<blockquote>
+  <h3 id="참조">[참조]</h3>
+</blockquote>
+
+<div class="link-container" onclick="window.open('https://developer.mozilla.org/ko/docs/Web/JavaScript', '_blank');">
+  <img src="./assets/img/posts/training/mozilla-logo.png" alt="Kakao Developers" />
+  <div class="link-content">
+    <h2>JavaScript | MDN</h2>
+    <p>JavaScript (JS)는 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원합니다. </p>
+    <p>developer.mozilla.org</p>
+  </div>
+</div>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[🚀 함수 1️⃣ 함수 선억식 function 키워드를 사용하여 함수 정의 호이스팅 ✅, 정의되기 전 호출 가능 1 2 3 4 function 함수이름(매개변수){ // return 반한값; }]]></summary></entry><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day2</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(2)/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day2" /><published>2024-07-16T00:00:00+09:00</published><updated>2024-07-16T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(2)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(2)/"><![CDATA[<h2 id="-자료형의-종류">🚀 자료형의 종류</h2>
+<p><span><code class="language-plaintext highlighter-rouge">자료형은 프로그래밍에서 변수나 값이 가질 수 있는 데이터의 종류를 의미</code></span></p>
+
+<h3 id="1️⃣-기본-자료형">1️⃣ 기본 자료형</h3>
+<blockquote>
+  <ul>
+    <li>숫자형<br /></li>
+    <li>문자열형<br /></li>
+    <li>논리형<br /></li>
+  </ul>
+</blockquote>
+
+<h3 id="2️⃣-특수-자료형">2️⃣ 특수 자료형</h3>
+<blockquote>
+  <ul>
+    <li>undefined<br /></li>
+    <li>심볼형<br /></li>
+    <li>null<br /></li>
+  </ul>
+</blockquote>
+
+<h3 id="3️⃣-참조-자료형">3️⃣ 참조 자료형</h3>
+<blockquote>
+  <ul>
+    <li>배열<br /></li>
+    <li>함수<br /></li>
+    <li>객체<br /></li>
+    <li>typeof<br /></li>
+  </ul>
+</blockquote>
+
+<h2 id="-연산자의-종류">🚀 연산자의 종류</h2>
+<p><span><code class="language-plaintext highlighter-rouge">프로그래밍에서 값(피연산자)들에 대해 특정 작업을 수행하는 데 사용되는 기호 또는 키워드를 의미</code></span></p>
+
+<h3 id="1️⃣-산술-연산자">1️⃣ 산술 연산자</h3>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">+</code> : 피연산자 덧셈<br />
+<code class="language-plaintext highlighter-rouge">-</code> : 피연산자 뺄셈<br />
+<code class="language-plaintext highlighter-rouge">*</code> : 피연산자 곱셈<br />
+<code class="language-plaintext highlighter-rouge">/</code> : 피연산자 나눗셈<br />
+<code class="language-plaintext highlighter-rouge">%</code> : 피연산자끼리 나누어 떨어지는 나머지<br /></p>
+</blockquote>
+
+<h3 id="2️⃣-증감-연산자-️-데이터가-할당-된-변수만-피연산자로-사용-가능-️">2️⃣ 증감 연산자 ➡️ 데이터가 할당 된 변수만 피연산자로 사용 가능 ❗️</h3>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">++</code> : 숫자형 데이터 1 증가<br />
+<code class="language-plaintext highlighter-rouge">--</code> : 숫자형 데이터 1 감소<br /></p>
+</blockquote>
+
+<ul>
+  <li>추가로, 증감 연산자는 위치에 따라 후치 연산자, 전치 연산자로도 나눌 수 있음
+    <ul>
+      <li>후치 연산자 : 변수 뒤 위치 ✔️ 연산 끝난 후 변수 값 변경</li>
+      <li>전치 연산자 : 변수 앞 위치 ✔️ 변수 값 먼저 변경 후 다른 연산 수행</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="3️⃣-대입-연산자">3️⃣ 대입 연산자</h3>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">=</code> : 할당 연산자<br />
+<code class="language-plaintext highlighter-rouge">+=</code>, <code class="language-plaintext highlighter-rouge">-=</code>, <code class="language-plaintext highlighter-rouge">*=</code>, <code class="language-plaintext highlighter-rouge">/=</code>, <code class="language-plaintext highlighter-rouge">%=</code> : 복합 대입 연산자<br /></p>
+</blockquote>
+
+<h3 id="4️⃣-비교-연산자">4️⃣ 비교 연산자</h3>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">==</code> : 동등 ➡️ 피연산자들의 값 동일 할 때 true 반환<br /><br />
+<code class="language-plaintext highlighter-rouge">===</code> : 동치 ➡️ 피연산자들의 값, 자료형 동일 할 때 true 반환<br /><br />
+<code class="language-plaintext highlighter-rouge">!=</code> : 부등 ➡️ 피연산자들의 값 다를 때 true 반환<br /><br />
+<code class="language-plaintext highlighter-rouge">!==</code> : 불일치 ➡️ 피연산자들의 값, 자료형 다를 때 true 반환<br /><br />
+<code class="language-plaintext highlighter-rouge">&gt;</code>, <code class="language-plaintext highlighter-rouge">&gt;=</code>, <code class="language-plaintext highlighter-rouge">&lt;</code>, <code class="language-plaintext highlighter-rouge">&lt;=</code> : 크기 비교<br /></p>
+</blockquote>
+
+<h3 id="5️⃣-삼항-연산자---세-개의-피연산자-필요-조건에-따라-두-값-중-1개-반환-️">5️⃣ 삼항 연산자 - 세 개의 피연산자 필요, 조건에 따라 두 값 중 1개 반환 ❗️</h3>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">condition ? exprIfTrue : exprIfFalse;</code> <br /></p>
+</blockquote>
+
+<ul>
+  <li>주로 간단한 조건부 로직 작성 시 사용 !</li>
+</ul>
+
+<h3 id="6️⃣-논리-연산자">6️⃣ 논리 연산자</h3>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">&amp;&amp;</code> : and<br />
+<code class="language-plaintext highlighter-rouge">||</code> : or<br />
+<code class="language-plaintext highlighter-rouge">!</code> : not<br /></p>
+</blockquote>
+
+<h2 id="-조건문--반복문">🚀 조건문 / 반복문</h2>
+
+<h3 id="1️⃣-조건문-️-특정-조건-판별하여-각각-다른-로직-실행">1️⃣ 조건문 ➡️ 특정 조건 판별하여 각각 다른 로직 실행</h3>
+<blockquote>
+  <p><strong>if ~ else문</strong></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>  <span class="k">if </span><span class="p">(</span><span class="nx">condition</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// 조건이 참일 때 실행되는 로직</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="k">if </span><span class="p">(</span><span class="nx">anotherCondition</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// 또 다른 조건이 참일 때 실행되는 로직</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="c1">// 위 조건들이 모두 거짓일 때 실행되는 로직</span>
+  <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>if문은 조건 참일 때 해당 로직 실행 <br /></li>
+  <li>else문은 if 조건이 거짓일 때 해당 로직 실행 <br /></li>
+  <li>else if문은 또 다른 조건 참일 때 해당 로직들 실행 <br /></li>
+</ul>
+
+<blockquote>
+  <p><strong>switch</strong></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre>  <span class="k">switch </span><span class="p">(</span><span class="nx">expression</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">case</span> <span class="nx">value1</span><span class="p">:</span>
+    <span class="c1">// value1과 일치할 때 반환활 값</span>
+    <span class="k">break</span><span class="p">;</span>
+  <span class="k">case</span> <span class="nx">value2</span><span class="p">:</span>
+    <span class="c1">// value2와 일치할 때 반환활 값</span>
+    <span class="k">break</span><span class="p">;</span>
+  <span class="nl">default</span><span class="p">:</span>
+    <span class="c1">// 어떤 case와도 일치하지 않을 때 반환활 값</span>
+  <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>여러 값 비교하여 반환활 값을 선택할 때 사용</li>
+  <li>각 값(case)에 대해 반환활 값을 지정하며, 일치하는 값이 없을 때는 default</li>
+  <li>❗️ swith문은 값에 대한 비교만 가능하며, 표현식의 결과 비교 ❌</li>
+</ul>
+
+<h3 id="2️⃣-반복문-️-특정-코드를-여러-번-실행">2️⃣ 반복문 ➡️ 특정 코드를 여러 번 실행</h3>
+<blockquote>
+  <p><strong>while문</strong></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>  <span class="k">while </span><span class="p">(</span><span class="nx">condition</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// 조건이 참일 때 반복 실행되는 로직</span>
+  <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>조건이 참일 때까지 코드 블록을 반복</li>
+</ul>
+
+<blockquote>
+  <p><strong>do…while문</strong></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>  <span class="k">do</span> <span class="p">{</span>
+    <span class="c1">// 코드 블록</span>
+  <span class="p">}</span> <span class="k">while </span><span class="p">(</span><span class="nx">condition</span><span class="p">);</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>코드 블록 먼저 실행하고 조건이 참일 때까지 반복</li>
+</ul>
+
+<blockquote>
+  <p><strong>for문</strong></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>  <span class="k">for </span><span class="p">(</span><span class="nx">initialization</span><span class="p">;</span> <span class="nx">condition</span><span class="p">;</span> <span class="nx">increment</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// 반복 실행되는 로직</span>
+  <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>반복 횟수가 정해 초기화, 조건, 증감식을 포함하여 사용</li>
+</ul>
+
+<blockquote>
+  <p><strong>for..in문</strong></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>  <span class="k">for </span><span class="p">(</span><span class="nx">key</span> <span class="k">in</span> <span class="nx">object</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// 객체의 키를 반복</span>
+  <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>객체의 key 반복할 때 사용</li>
+</ul>
+
+<blockquote>
+  <p><strong>for..of문</strong></p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>  <span class="k">for </span><span class="p">(</span><span class="nx">value</span> <span class="k">of</span> <span class="nx">iterable</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// 반복 실행되는 로직</span>
+  <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>배열이나 문자열 같은 반복 가능한 객체의 값을 반복할 때 사용</li>
+</ul>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[🚀 자료형의 종류 자료형은 프로그래밍에서 변수나 값이 가질 수 있는 데이터의 종류를 의미]]></summary></entry><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day1</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day1" /><published>2024-07-15T00:00:00+09:00</published><updated>2024-07-15T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/"><![CDATA[<h2 id="-javascript를-실행-시키는-방법">🚀 JavaScript를 실행 시키는 방법</h2>
 <h3 id="1️⃣-node-명령어를-사용">1️⃣ <strong>node</strong> 명령어를 사용</h3>
 <ol>
   <li>우선 실행시킬 js 파일로 이동한다.
@@ -140,7 +484,7 @@ const: 블록 스코프, 재선언 불가, 재할당 불가, 단, 객체나 배�
   <li>[] -&gt; 대괄호</li>
   <li>{} -&gt; 중괄호</li>
   <li>() -&gt; 소괄호</li>
-</ul>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="JavaScript" /><category term="JavaScript" /><category term="유데미" /><category term="udemy" /><category term="웅진씽크빅" /><category term="스나이퍼팩토리" /><category term="Next.js" /><summary type="html"><![CDATA[🚀 JavaScript를 실행 시키는 방법 1️⃣ node 명령어를 사용 우선 실행시킬 js 파일로 이동한다. 1 2 # ex cd Desktop/my-app/next-study.js node 명령어로 실행 1 node next-study.js]]></summary></entry><entry><title type="html">VITE - Spring Boot CORS 설정</title><link href="https://heominseok.github.io/posts/CORS-%EC%84%A4%EC%A0%95/" rel="alternate" type="text/html" title="VITE - Spring Boot CORS 설정" /><published>2024-07-11T00:00:00+09:00</published><updated>2024-07-11T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/CORS%20%EC%84%A4%EC%A0%95</id><content type="html" xml:base="https://heominseok.github.io/posts/CORS-%EC%84%A4%EC%A0%95/"><![CDATA[<p><img src="/assets/img/posts/Petstagram-Project/cors-setting.webp" alt="CORS 설정" />
+</ul>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[🚀 JavaScript를 실행 시키는 방법 1️⃣ node 명령어를 사용 우선 실행시킬 js 파일로 이동한다. 1 2 # ex cd Desktop/my-app/next-study.js node 명령어로 실행 1 node next-study.js]]></summary></entry><entry><title type="html">VITE - Spring Boot CORS 설정</title><link href="https://heominseok.github.io/posts/CORS-%EC%84%A4%EC%A0%95/" rel="alternate" type="text/html" title="VITE - Spring Boot CORS 설정" /><published>2024-07-11T00:00:00+09:00</published><updated>2024-07-11T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/CORS%20%EC%84%A4%EC%A0%95</id><content type="html" xml:base="https://heominseok.github.io/posts/CORS-%EC%84%A4%EC%A0%95/"><![CDATA[<p><img src="/assets/img/posts/Petstagram-Project/cors-setting.webp" alt="CORS 설정" />
 <em>웹 개발에서의 CORS 설정</em></p>
 
 <h2 id="cors란">CORS란?</h2>
@@ -672,7 +1016,7 @@ const: 블록 스코프, 재선언 불가, 재할당 불가, 단, 객체나 배�
     margin-top: 10px;
     margin-bottom: 5px;
   }
-  .link-content a {
+  .link-content p {
     color: gray;
     margin-top: 5px;
     display: block;
@@ -697,7 +1041,7 @@ const: 블록 스코프, 재선언 불가, 재할당 불가, 단, 객체나 배�
   <div class="link-content">
     <h2>Kakao Developers</h2>
     <p>카카오 API를 활용하여 다양한 애플리케이션을 개발해보세요. 카카오 로그인, 메시지 보내기, 친구 API, 인공지능 API 등을 제공합니다.</p>
-    <a href="https://developers.kakao.com">developers.kakao.com</a>
+    <p>developers.kakao.com</p>
   </div>
 </div>
 <p><br /></p>
@@ -1148,78 +1492,4 @@ const: 블록 스코프, 재선언 불가, 재할당 불가, 단, 객체나 배�
   <ul>
     <li><code class="language-plaintext highlighter-rouge">loadUserByUsername</code> 메서드는 이메일로 사용자 정보를 조회</li>
   </ul>
-</blockquote>]]></content><author><name></name></author><category term="프로젝트" /><category term="PETSTAGRAM" /><category term="React" /><category term="Spring Boot" /><category term="JWT" /><category term="Social Login" /><category term="Kakao" /><category term="OAuth2.0" /><summary type="html"><![CDATA[📌 React와 Spring Boot를 사용하여 JWT를 기반으로 로그인 세션을 관리하는 과정]]></summary></entry><entry><title type="html">JWT + 카카오 소셜 로그인 (1)</title><link href="https://heominseok.github.io/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8/" rel="alternate" type="text/html" title="JWT + 카카오 소셜 로그인 (1)" /><published>2024-06-09T00:00:00+09:00</published><updated>2024-06-09T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/JWT%20+%20%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EC%86%8C%EC%85%9C%20%EB%A1%9C%EA%B7%B8%EC%9D%B8</id><content type="html" xml:base="https://heominseok.github.io/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8/"><![CDATA[<style>
-  .flex-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  .image-container {
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .image-container img {
-    width: 100%;
-    height: 300px;
-  }
-  .caption {
-    text-align: center;
-    margin-top: 5px;
-  }
-</style>
-
-<div class="flex-container">
-  <div class="image-container">
-    <img src="/assets/img/posts/Petstagram-Project/login.png" alt="로그인 UI" />
-    <div class="caption">로그인 UI</div>
-  </div>
-  <div class="image-container">
-    <img src="/assets/img/posts/Petstagram-Project/kakaologin.png" alt="카카오 로그인" />
-    <div class="caption">카카오 로그인</div>
-  </div>
-</div>
-
-<h2 id="jwtjason-web-token">JWT(Jason Web Token)</h2>
-<p><strong>JWT(JSON Web Token)</strong>는 두 개체 간에 정보를 JSON 객체로 안전하게 전송하기 위한 개방형 표준( RFC7519 )이고, 디지털 서명으로 검증되고 신뢰될 수 있다. JWT는 주로 사용자가 로그인한 후 요청마다 JWT를 포함시켜 허용된 리소스에 접근하는 권한 부여와 당사자 간에 안전하게 정보를 전송하는 정보 교환에 사용된다. 서명된 토큰은 클레임의 무결성을 보장하고, 공개/비공개 키를 사용하면 발신자의 신원을 확인할 수 있다.</p>
-
-<h2 id="jwt의-구성요소">JWT의 구성요소</h2>
-<p><strong>JWT(JSON Web Token)</strong>는 (.)으로 구분된 세 부분으로 구성되어있다.</p>
-<ol>
-  <li>헤더(Header): 토큰 유형과 서명 알고리즘을 포함</li>
-  <li>페이로드(Payload): 사용자 및 추가 데이터(클레임)를 포함</li>
-  <li>서명(Signature): 헤더와 페이로드의 무결성을 검증하는 서명</li>
-</ol>
-
-<h2 id="jwt-동작-원리">JWT 동작 원리</h2>
-<p><img src="/assets/img/posts/Petstagram-Project/jwt-diagram.png" alt="JWT 구성 요소" /></p>
-
-<p>React와 Spring Boot로 JWT를 사용한 로그인 구현의 동작 과정은 다음과 같다.</p>
-
-<h3 id="1-로그인-및-토큰-발급">1. 로그인 및 토큰 발급</h3>
-<ol>
-  <li><strong>ID/PW 로그인 요청</strong>: 클라이언트(React)가 서버(Spring Boot)에 사용자 ID와 비밀번호를 보내 로그인 요청을 한다.</li>
-  <li><strong>토큰 발급</strong>: 서버는 ID와 비밀번호를 검증한 후, Access Token과 Refresh Token을 생성하여 클라이언트에 응답한다.</li>
-  <li><strong>API 요청</strong>: 클라이언트는 이후의 API 요청 시 Access Token을 HTTP 헤더에 포함하여 서버에 요청을 보낸다.</li>
-</ol>
-
-<h3 id="2-토큰-갱신">2. 토큰 갱신</h3>
-<ol>
-  <li><strong>Access Token 만료 응답</strong>: 서버가 Access Token의 만료를 감지하고 클라이언트에 만료 응답을 보낸다.</li>
-  <li><strong>토큰 재발급 요청</strong>: 클라이언트는 Refresh Token을 사용하여 새로운 Access Token과 Refresh Token의 재발급을 서버에 요청한다.</li>
-  <li><strong>새 토큰 발급</strong>: 서버는 Refresh Token을 검증하고, 새로운 Access Token과 Refresh Token을 발급하여 클라이언트에 응답한다.</li>
-</ol>
-
-<p>이 과정은 Access Token의 짧은 유효기간으로 인해 자주 갱신이 필요할 때, Refresh Token을 통해 새로운 Access Token을 발급받아 지속적인 인증 상태를 유지하게 한다.</p>
-
-<blockquote>
-  <h3 id="참조">[참조]</h3>
-  <p><a href="https://jwt.io/introduction">https://jwt.io/introduction</a></p>
-</blockquote>]]></content><author><name></name></author><category term="프로젝트" /><category term="PETSTAGRAM" /><category term="React" /><category term="Spring Boot" /><category term="JWT" /><category term="Social Login" /><category term="Kakao" /><category term="OAuth2.0" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">🐶 PETSTAGRAM 프로젝트</title><link href="https://heominseok.github.io/posts/Petstagram-Project/" rel="alternate" type="text/html" title="🐶 PETSTAGRAM 프로젝트" /><published>2024-06-08T00:00:00+09:00</published><updated>2024-06-08T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/Petstagram-Project</id><content type="html" xml:base="https://heominseok.github.io/posts/Petstagram-Project/"><![CDATA[<h1 id="펫스타그램">펫스타그램</h1>
-
-<p><img src="/assets/img/posts/Petstagram-Project/main.png" alt="Main View" width="972" height="589" /></p>
-
-<h3 id="펫스타그램은-반려동물과-사람이-함께-삶을-추구하는-시대를-반영하여-만든-웹-플랫폼입니다">‘펫스타그램’은 반려동물과 사람이 함께 삶을 추구하는 시대를 반영하여 만든 웹 플랫폼입니다.</h3>
-
-<h3 id="사용자들은-반려동물-사진과-동영상을-업로드하고-공유하며다양한-반려동물-프로필을-확인하고-정보를-공유함으로써새로운-친구를-사귈-수-있는-커뮤니티를-형성하고자만들게-되었습니다">사용자들은 반려동물 사진과 동영상을 업로드하고 공유하며, 다양한 반려동물 프로필을 확인하고 정보를 공유함으로써 새로운 친구를 사귈 수 있는 커뮤니티를 형성하고자 만들게 되었습니다.</h3>]]></content><author><name></name></author><category term="프로젝트" /><category term="PETSTAGRAM" /><category term="React" /><category term="Spring Boot" /><category term="Vite" /><summary type="html"><![CDATA[펫스타그램]]></summary></entry></feed>
+</blockquote>]]></content><author><name></name></author><category term="프로젝트" /><category term="PETSTAGRAM" /><category term="React" /><category term="Spring Boot" /><category term="JWT" /><category term="Social Login" /><category term="Kakao" /><category term="OAuth2.0" /><summary type="html"><![CDATA[📌 React와 Spring Boot를 사용하여 JWT를 기반으로 로그인 세션을 관리하는 과정]]></summary></entry></feed>

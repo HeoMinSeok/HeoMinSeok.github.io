@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://heominseok.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://heominseok.github.io/" rel="alternate" type="text/html" hreflang="ko-KR" /><updated>2024-07-21T23:49:10+09:00</updated><id>https://heominseok.github.io/feed.xml</id><title type="html">MINDDO</title><subtitle>MINDDO의 코딩 기록장</subtitle><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1</title><link href="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1" /><published>2024-07-20T00:00:00+09:00</published><updated>2024-07-20T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80</id><content type="html" xml:base="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://heominseok.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://heominseok.github.io/" rel="alternate" type="text/html" hreflang="ko-KR" /><updated>2024-07-21T23:59:03+09:00</updated><id>https://heominseok.github.io/feed.xml</id><title type="html">MINDDO</title><subtitle>MINDDO의 코딩 기록장</subtitle><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1</title><link href="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1" /><published>2024-07-20T00:00:00+09:00</published><updated>2024-07-20T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80</id><content type="html" xml:base="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/"><![CDATA[<style>
   .flex-container {
     display: flex;
     justify-content: space-between;
@@ -94,11 +94,11 @@
 <div class="flex-container">
   <div class="image-container">
     <img src="/assets/img/posts/camp-review/week1-jep.png" />
-    <div class="caption">오프라인</div>
+    <div class="caption">온라인</div>
   </div>
   <div class="image-container">
     <img src="/assets/img/posts/camp-review/week1-offline.jpg" />
-    <div class="caption">온라인</div>
+    <div class="caption">오프라인</div>
   </div>
 </div>
 

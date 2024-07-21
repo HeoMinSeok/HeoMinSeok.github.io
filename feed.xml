@@ -1,4 +1,197 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://heominseok.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://heominseok.github.io/" rel="alternate" type="text/html" hreflang="ko-KR" /><updated>2024-07-21T16:19:43+09:00</updated><id>https://heominseok.github.io/feed.xml</id><title type="html">MINDDO</title><subtitle>MINDDO의 코딩 기록장</subtitle><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1</title><link href="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1" /><published>2024-07-20T00:00:00+09:00</published><updated>2024-07-20T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80</id><content type="html" xml:base="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/"><![CDATA[]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="회고록" /><category term="유데미" /><category term="udemy" /><category term="웅진씽크빅" /><category term="스나이퍼팩토리" /><category term="Next.js" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day5</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(5)/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day5" /><published>2024-07-19T00:00:00+09:00</published><updated>2024-07-19T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(5)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(5)/"><![CDATA[<h2 id="-dom">🚀 DOM</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://heominseok.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://heominseok.github.io/" rel="alternate" type="text/html" hreflang="ko-KR" /><updated>2024-07-21T18:56:00+09:00</updated><id>https://heominseok.github.io/feed.xml</id><title type="html">MINDDO</title><subtitle>MINDDO의 코딩 기록장</subtitle><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1</title><link href="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1" /><published>2024-07-20T00:00:00+09:00</published><updated>2024-07-20T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80</id><content type="html" xml:base="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/"><![CDATA[<style>
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container img {
+    width: 100%;
+    height: 300px;
+  }
+  .caption {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .responsive-link-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .responsive-link-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  
+  .responsive-link-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .responsive-link-content h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .responsive-link-content p {
+    margin: 5px 0 10px;
+    color: gray;
+    font-size: 0.9em;
+  }
+  
+  .responsive-link-content small {
+    color: #777;
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-link-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .responsive-link-card img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    .responsive-link-content {
+      width: 100%;
+    }
+</style>
+
+<hr />
+
+<h2 id="1주차"><strong>1주차</strong></h2>
+<h3 id="20240715--20240719"><strong>2024.07.15 ~ 2024.07.19</strong></h3>
+
+<hr />
+
+<p><img src="/assets/img/posts/camp-review/udemy-main.png" alt="유데미x스나이퍼팩토리" /></p>
+
+<h2 id="-참가하게-된-계기">🐥 참가하게 된 계기</h2>
+<p>백엔드 개발을 주로 해왔었는데 프론트엔드 기술을 배우기 위해 Next.js 과정을 시작하게되었다. <br /> 스프링부트와 자바만 주구장창 하던 내가… 몇개월 전에 리액트를 접하게 되었는데 너무나도 재미있고 나에게 잘 맞았다… <br />
+그러다가 Next JS를 알게되었고 프론트엔드쪽도 깊게 공부해서 프론트엔드와 백엔드를 모두 다룰 수 있는 풀스택 개발자가 되기 위해 이번 과정에 참여하였다 🤟</p>
+
+<h2 id="-1주차-회고">🐥 1주차 회고</h2>
+
+<div class="flex-container">
+  <div class="image-container">
+    <img src="/assets/img/posts/camp-review/week1-jep.png" />
+    <div class="caption">오프라인</div>
+  </div>
+  <div class="image-container">
+    <img src="/assets/img/posts/camp-review/week1-offline.jpg" />
+    <div class="caption">온라인</div>
+  </div>
+</div>
+
+<h4 id="-개인적인-소감">🐣 개인적인 소감</h4>
+<blockquote>
+  <p><span>이태원에서 왔다갔다 했는데 너무 힘들었다.. 길도 너무 복잡하고 경사도 높고.. 심지어 수요일부터는 비가 너무 너무 많이 와서 신발이 아쿠아슈즈가 되어버렸다..  온 몸은 찝찝하고 휴.. 😥 <br />
+그래도 수업은 너무나도 알찼다 ! 수코딩 강사님이 하셨는데 너무 잘 가르쳐주셨다 ! <br /> 본인은 자바와 파이썬만 주로 다루어왔어서 자바스크립트를 깊게 공부하지 않았었다.. <br />
+그게 조금 걱정이였는데 다시 기본 개념과 문법을 학습하며 ES6의 기능들을 되짚어보았고 까먹었던 내용들을 다시 되짚어보게 되었다 ❗️❗️ <br /><br />
+<strong>감사합니다 강사님 😝</strong> </span> <br /><br />
+<span>다음주부터는 나는 온라인으로 참가해야한다 ! 본가로 내려와서 더이상 강의장으로 갈 수가 없다 .. <br />
+새로 사귄 분들이 있었는데 못 보게 된게 조금 아쉽다 1주동안 재밌었는데…! 프로젝트 시작하면 다시 봐요 🥹</span></p>
+</blockquote>
+
+<h4 id="-개념정리">🐣 개념정리</h4>
+<p>이번 주에는 JavaScript 기초 개념을 다루었다.<br /></p>
+
+<ul>
+  <li>JavaScript 기본 문법: 변수 선언(var, let, const), 자료형, 조건문, 반복문, 연산자</li>
+  <li>함수: 함수 선언과 표현식, 화살표 함수, 콜백 함수</li>
+  <li>객체와 배열: 객체 생성, 배열의 메서드 활용, 프로토타입, 클래스</li>
+  <li>실행 컨텍스트와 호이스팅</li>
+  <li>내장 객체 및 메서드</li>
+  <li>비동기 프로그래밍: 동기 및 비동기 처리 <code class="language-plaintext highlighter-rouge">Promise~then</code>, <code class="language-plaintext highlighter-rouge">async/await</code></li>
+  <li>DOM 조작: DOM 요소 선택과 이벤트 처리</li>
+  <li>TypeScript: 기본 타입 이해</li>
+</ul>
+
+<blockquote>
+  <p>본 내용들의 정리는 JavaScript 카테고리에 ❗️<br /></p>
+</blockquote>
+
+<div class="responsive-link-card" onclick="window.open('https://heominseok.github.io/categories/javascript/', '_blank');">
+  <div>
+    <img src="./assets/img/chilbok.jpeg" alt="MINDDO 이미지" />
+  </div>
+  <div class="responsive-link-content">
+    <h2>MINDDO</h2>
+    <p>MINDDO의 코딩 기록장</p>
+    <small>heominseok.github.io</small>
+  </div>
+</div>
+<p><br /></p>
+
+<h4 id="-과제-요구사항">🐣 과제 요구사항</h4>
+<blockquote>
+  <p>2일차: 반복문과 조건문</p>
+</blockquote>
+
+<ul>
+  <li>for 반복문: 주어진 범위 내에서 반복 작업을 수행</li>
+  <li>조건문(if-else): 조건에 따라 서로 다른 작업을 수행</li>
+  <li>요구사항
+    <ul>
+      <li>✔️ 반복문을 통해 숫자나 배열의 요소들을 순회하고 처리</li>
+      <li>✔️ 조건문을 통해 특정 조건에 따라 분기 처리</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>3일차: 함수와 문자열 조작</p>
+</blockquote>
+
+<ul>
+  <li>함수 선언 및 호출: 특정 작업을 수행하는 코드를 재사용 가능하도록 정의</li>
+  <li>문자열 조작: 문자열을 변환하고 필요한 형식으로 가공</li>
+  <li>
+    <p>요구사항</p>
+
+    <ul>
+      <li>✔️ 함수를 작성하여 반복적인 작업을 모듈화하고 재사용성을 높임</li>
+      <li>✔️ 문자열을 조작하여 원하는 형식으로 변환</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>4일차: 내장 객체 및 메서드</p>
+</blockquote>
+
+<ul>
+  <li>배열 메서드(find, filter, some, every, reduce, sort): 배열 내 요소를 찾거나, 필터링하거나, 조건을 확인하거나, 합산하거나, 정렬하는 작업을 수행</li>
+  <li>문자열 메서드(replace, split): 문자열을 변환하고 특정 구분자로 분리하여 배열을 생성</li>
+  <li>고급 배열 메서드를 활용하여 데이터를 처리하고 분석</li>
+  <li>
+    <p>요구사항</p>
+
+    <ul>
+      <li>✔️ 배열의 다양한 메서드를 사용하여 데이터를 처리하고 필요한 결과를 도출</li>
+      <li>✔️ 문자열 메서드를 활용하여 문자열을 변환하고 필요한 형식으로 가공</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="회고록" /><category term="유데미" /><category term="udemy" /><category term="웅진씽크빅" /><category term="스나이퍼팩토리" /><category term="Next.js" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day5</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(5)/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day5" /><published>2024-07-19T00:00:00+09:00</published><updated>2024-07-19T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(5)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(5)/"><![CDATA[<h2 id="-dom">🚀 DOM</h2>
 <p><span><code class="language-plaintext highlighter-rouge">DOM(Document Object Model)은 웹 페이지의 구조화된 표현으로, 자바스크립트를 사용하여 웹 페이지의 콘텐츠와 구조를 동적으로 조작할 수 있음</code></span></p>
 
 <h3 id="1️⃣-dom-요소-선택">1️⃣ DOM 요소 선택</h3>
@@ -620,61 +813,65 @@
 
   <span class="nf">fetchData</span><span class="p">();</span>
 </pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[🚀 생성자 함수 / 프로토타입 새로운 객체를 생성하고 초기화하는 함수]]></summary></entry><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day3</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(3)/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day3" /><published>2024-07-17T00:00:00+09:00</published><updated>2024-07-17T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(3)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(3)/"><![CDATA[<style>
-  .link-container {
-    display: flex;
-    flex-wrap: nowrap;
-    border: 1px solid #d0d0d0;
-    border-radius: 8px;
-    cursor: pointer;
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .link-container img {
-    width: 100%;
-    height: auto;
-    padding: 0 0 0 10px;
-  }
-  
-  .link-content {
-    width: 70%;
-    margin: auto 10px;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
-  .link-content h2 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
-  
-  .link-content p {
-    color: gray;
-    margin-top: 5px;
-    display: block;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    max-width: 100%;
-  }
-
   .declare, .expression, .arrow, .closure {
     color: #2593FF;
     font-weight: bold;
   }
 
+  .responsive-link-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .responsive-link-card img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  
+  .responsive-link-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .responsive-link-content h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .responsive-link-content p {
+    margin: 5px 0 10px;
+    color: gray;
+    font-size: 0.9em;
+  }
+  
+  .responsive-link-content small {
+    color: #777;
+  }
+  
   @media (max-width: 768px) {
-    .link-container {
+    .responsive-link-card {
       flex-direction: column;
+      align-items: flex-start;
     }
     
-    .link-container img, .link-content {
-      width: 100%;
-      margin: 10px 0;
+    .responsive-link-card img {
+      margin-right: 0;
+      margin-bottom: 10px;
     }
 
-    .link-content p {
-      white-space: normal;
+    .responsive-link-content {
+      width: 100%;
     }
   }
 </style>
@@ -987,12 +1184,14 @@
 </blockquote>
 
 <p>MDN 공식 문서 - 호이스팅, 컨텍스트 <br /></p>
-<div class="link-container" onclick="window.open('https://developer.mozilla.org/ko/docs/Glossary/Hoisting', '_blank');">
-  <img src="./assets/img/posts/training/mozilla-logo.png" alt="Kakao Developers" />
-  <div class="link-content">
+<div class="responsive-link-card" onclick="window.open('https://developer.mozilla.org/ko/docs/Glossary/Hoisting', '_blank');">
+  <div>
+    <img src="./assets/img/posts/training/mozilla-logo.png" alt="mozilla" />
+  </div>
+  <div class="responsive-link-content">
     <h2>JavaScript | MDN</h2>
-    <p>JavaScript (JS)는 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원합니다. JavaScript (JS)는 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원합니다.JavaScript (JS)는 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원합니다.JavaScript (JS)는 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원합니다.JavaScript (JS)는 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원합니다.</p>
-    <p>developer.mozilla.org</p>
+    <p>JavaScript</p>
+    <small>developer.mozilla.org</small>
   </div>
 </div>
 <p><br /></p>

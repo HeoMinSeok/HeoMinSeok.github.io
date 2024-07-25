@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://heominseok.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://heominseok.github.io/" rel="alternate" type="text/html" hreflang="ko-KR" /><updated>2024-07-21T23:59:03+09:00</updated><id>https://heominseok.github.io/feed.xml</id><title type="html">MINDDO</title><subtitle>MINDDO의 코딩 기록장</subtitle><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1</title><link href="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1" /><published>2024-07-20T00:00:00+09:00</published><updated>2024-07-20T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80</id><content type="html" xml:base="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://heominseok.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://heominseok.github.io/" rel="alternate" type="text/html" hreflang="ko-KR" /><updated>2024-07-26T04:15:42+09:00</updated><id>https://heominseok.github.io/feed.xml</id><title type="html">MINDDO</title><subtitle>MINDDO의 코딩 기록장</subtitle><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1</title><link href="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1" /><published>2024-07-20T00:00:00+09:00</published><updated>2024-07-20T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80</id><content type="html" xml:base="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/"><![CDATA[<style>
   .flex-container {
     display: flex;
     justify-content: space-between;
@@ -1078,7 +1078,164 @@
     </ul>
   </li>
   <li><code class="language-plaintext highlighter-rouge">printPlayerGoals</code> 함수를 호출 할 때, Player 인터페이스는 <code class="language-plaintext highlighter-rouge">name</code>과 <code class="language-plaintext highlighter-rouge">goals</code> 속성만 포함하고 있기때문에 함수에서 <code class="language-plaintext highlighter-rouge">player.team</code>에 접근하려 하면 타입스크립트는 <code class="language-plaintext highlighter-rouge">team</code> 속성이 인터페이스에 정의되어 있지 않아 에러가 발생하는데 이러한 것이 타입 제약이라고 함</li>
-</ul>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="TypeScript" /><category term="TypeScript" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day4</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(4)/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day4" /><published>2024-07-18T00:00:00+09:00</published><updated>2024-07-18T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(4)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(4)/"><![CDATA[<h2 id="-생성자-함수---프로토타입">🚀 생성자 함수 /  프로토타입</h2>
+</ul>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="TypeScript" /><category term="TypeScript" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 React</title><link href="https://heominseok.github.io/posts/Context-API-+-Reducer-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 React" /><published>2024-07-19T00:00:00+09:00</published><updated>2024-07-19T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/Context%20API%20+%20Reducer%20%EC%A0%95%EB%A6%AC</id><content type="html" xml:base="https://heominseok.github.io/posts/Context-API-+-Reducer-%EC%A0%95%EB%A6%AC/"><![CDATA[<p><img src="/assets/img/posts/training/context-drilling.png" alt="Context API - Props Drilling" />
+<em>Context API - Props Drilling</em></p>
+
+<h2 id="props-drliing-문제점">Props-Drliing 문제점</h2>
+
+<ul>
+  <li>데이터를 전달하기 위해 많은 중간 컴포넌트들이 불필요하게 props를 받아서 다시 전달해야하는데, 이는 코드 가독성을 저하시킴</li>
+  <li>컴포넌트 트리가 변경되거나 중간에 새로운 컴포넌트를 추가하거나 제거해야 하는 경우, 모든 관련된 컴포넌트의 props를 업데이트해야해서 유지보수가 어려움</li>
+  <li>중간 컴포넌트들이 단순히 데이터를 전달하는 역할만 할 경우, 동일한 코드가 반복</li>
+  <li>특정 props를 전달하는 로직이 중간 컴포넌트에 포함되어 있는 경우, 이 컴포넌트를 재사용하기 어려워짐</li>
+  <li>props가 자주 변경되는 경우, 많은 컴포넌트가 불필요하게 리렌더링</li>
+</ul>
+
+<p>이를 해결하기 위한 여러 방법들 중 <code class="language-plaintext highlighter-rouge">Context API</code>, <code class="language-plaintext highlighter-rouge">useReducer</code> 등이 있다.</p>
+
+<h2 id="context-api란">Context API란?</h2>
+<p><span><code class="language-plaintext highlighter-rouge">일일이 props를 넘겨주지 않고 컴포넌트 트리 전체에 데이터를 제공할 수 있는데, 이를 통해서 Props-Drliing을 해결 가능</code></span></p>
+
+<h3 id="context-api의-주요-구성-요소">Context API의 주요 구성 요소</h3>
+
+<ul>
+  <li><strong>React.createContext</strong>: Context 객체를 생성</li>
+  <li><strong>Context.Provider</strong>: Context를 구독하는 컴포넌트들에게 Context 값을 제공</li>
+  <li><strong>Context.Consumer</strong>: Context의 현재 값을 구독하여 사용, 일반적으로 Consumer 대신 <code class="language-plaintext highlighter-rouge">useContext</code> 훅을 사용</li>
+</ul>
+
+<h3 id="devtools에서-context-api-확인">DevTools에서 Context API 확인</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>컴포넌트 트리</th>
+      <th>Provider</th>
+      <th>Team</th>
+      <th>Player</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/posts/training/context-provider.png" alt="컴포넌트 트리" /></td>
+      <td><img src="/assets/img/posts/training/context.png" alt="Provider" /></td>
+      <td><img src="/assets/img/posts/training/context-team.png" alt="Team" /></td>
+      <td><img src="/assets/img/posts/training/context-player.png" alt="Player" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>컴포넌트 트리</strong>: 첫 번째 이미지는 DevTools에서 본 컴포넌트 트리이다. <code class="language-plaintext highlighter-rouge">App</code> 컴포넌트 아래에 <code class="language-plaintext highlighter-rouge">TeamProvider</code>가 있으며, 그 안에 <code class="language-plaintext highlighter-rouge">Context.Provider</code>가 있는데,<code class="language-plaintext highlighter-rouge">ContextTeam</code>과 <code class="language-plaintext highlighter-rouge">ContextPlayer</code> 컴포넌트는 <code class="language-plaintext highlighter-rouge">Context.Provider</code>의 자식으로 있어 <code class="language-plaintext highlighter-rouge">Context.Provider</code>의 props를 훅 호출로 사용할 수 있다.</li>
+  <li><strong>Provider</strong>: <code class="language-plaintext highlighter-rouge">Context.Provider</code>는 <code class="language-plaintext highlighter-rouge">teams</code> 데이터를 포함하고 있으며, <code class="language-plaintext highlighter-rouge">dispatch</code> 함수와 <code class="language-plaintext highlighter-rouge">state</code>를 props로 전달하는데, 이를 통해 하위 컴포넌트들이 Context의 값을 사용할 수 있게 된다.</li>
+  <li><strong>Team, Player</strong>: Context를 통해 전역으로 있는 데이터를 가져왔기 때문에 props 필드는 비어있는 것을 볼 수 있다.</li>
+</ul>
+
+<p>실제 코드에서도 컴포넌트에 props를 전달하지 않고, 해당 컴포넌트에서 Context를 호출해 데이터를 가져왔다.</p>
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre><span class="cm">/* useTeams는 ContextTeams를 커스텀 훅으로 만들었음 */</span>
+<span class="kd">const</span> <span class="p">{</span> <span class="nx">teams</span><span class="p">,</span> <span class="nx">dispatch</span><span class="p">,</span> <span class="nx">state</span> <span class="p">}</span> <span class="o">=</span> <span class="nf">useTeams</span><span class="p">();</span> 
+<span class="nx">이런</span> <span class="nx">식으로</span> <span class="nx">호출해서</span> <span class="nx">필요한</span> <span class="nx">데이터를</span> <span class="nx">뽑아올</span> <span class="nx">수</span> <span class="nx">있음</span>
+
+<span class="cm">/* useTeams 커스텀 훅 */</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">useContext</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">TeamContext</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">../context/ContextTeams</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">useTeams</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">context</span> <span class="o">=</span> <span class="nf">useContext</span><span class="p">(</span><span class="nx">TeamContext</span><span class="p">);</span>
+  <span class="k">if </span><span class="p">(</span><span class="o">!</span><span class="nx">context</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">throw</span> <span class="k">new</span> <span class="nc">Error</span><span class="p">(</span><span class="dl">'</span><span class="s1">useTeams must be used within a TeamProvider</span><span class="dl">'</span><span class="p">);</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">context</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">useTeams</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="devtools에서-props-drilling-확인">DevTools에서 Props Drilling 확인</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>컴포넌트 트리</th>
+      <th>부모 컴포넌트에서 Props 전달</th>
+      <th>Team</th>
+      <th>Player</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/posts/training/props-tree.png" alt="컴포넌트 트리" /></td>
+      <td><img src="/assets/img/posts/training/props.png" alt="컴포넌트 트리" /></td>
+      <td><img src="/assets/img/posts/training/props-team.png" alt="Team" /></td>
+      <td><img src="/assets/img/posts/training/props-player.png" alt="Player" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>컴포넌트 트리</strong>: 첫 번째 이미지는 DevTools에서 본 컴포넌트 트리이다. <code class="language-plaintext highlighter-rouge">App</code> 컴포넌트 아래에 <code class="language-plaintext highlighter-rouge">DrillingTeam</code>, <code class="language-plaintext highlighter-rouge">DrillingPlayer</code>가 있다.</li>
+  <li><strong>props 전달</strong>: props를 자식 컴포넌트로 전달하는 코드 사진이다.</li>
+  <li><strong>Team, Player</strong>: 이미지를 보면 명확하게 props로 데이터를 받아오는 것을 볼 수 있다.</li>
+</ul>
+
+<blockquote>
+  <p>실제 프로젝트에서는 데이터도 많고 한데, props로 일일이 다 전달하면 위에서 말한 문제점이 생겨나게 되는 것이다. Context API는 전역으로 상태를 담아주어서 따로 props를 컴포넌트마다 전달하지 않아도 useContext나 Context를 커스텀 훅에 담아서 값을 쉽게 뽑아올 수 있다. 하지만 Context도 구독하는 모든 컴포넌트가 값 변경될 때마다 리렌더링 되어 성능에 문제가 생길 수 있다.</p>
+</blockquote>
+
+<h2 id="reducer란">Reducer란?</h2>
+<p><span><code class="language-plaintext highlighter-rouge">하나의 컴포넌트 내에서 state를 다루는 로직을 해당 컴포넌트로 분리하여 외부에서 처리 할 수 있게 해줌</code></span></p>
+
+<p><img src="/assets/img/posts/training/reducer.webp" alt="useReducer" />
+<em>useReducer Flow</em></p>
+
+<h3 id="usereducer의-주요-구성-요소">useReducer의 주요 구성 요소</h3>
+
+<ul>
+  <li><strong>State</strong>: 현재 컴포넌트의 상태</li>
+  <li><strong>Dispatch</strong>: 상태를 업데이트하는 함수, 특정 액션을 dispatch 함수에 전달하면, 이 액션에 따라 상태가 업데이트</li>
+  <li><strong>Reducer</strong>: 상태 업데이트 로직을 정의하는 함수, 이 함수는 현재 상태와 액션 객체를 인수로 받아 새로운 상태를 반환</li>
+</ul>
+
+<h3 id="usereducer의-흐름">useReducer의 흐름</h3>
+<ol>
+  <li>EventHandler: 컴포넌트에서 이벤트 핸들러가 호출</li>
+  <li>Dispatch: 이벤트 핸들러는 dispatch 함수를 호출하여 액션 객체를 전달</li>
+  <li>Reducer: dispatch 함수는 액션 객체를 reducer 함수로 전달</li>
+  <li>State Update: reducer 함수는 현재 상태와 액션 객체를 기반으로 새로운 상태를 반환</li>
+  <li>Component Re-render: 상태가 업데이트되면 컴포넌트가 다시 렌더링</li>
+</ol>
+
+<h3 id="devtools에서-usereducer-확인">DevTools에서 useReducer 확인</h3>
+
+<div style="text-align: center;">
+  <img src="/assets/img/posts/training/reducer.gif" alt="reducer" style="height: 100%;" />
+</div>
+<p><br /></p>
+<blockquote>
+  <p>1.각 팀의 버튼을 누른다. <br />
+2.dispatch 함수가 호출되어 액션 객체를 reducer 함수로 전달한다. <br />
+3.reducer 함수는 현재 상태와 액션 객체를 기반으로 새로운 상태를 반환한다. 즉, 해당 팀의 선수를 반환한다. <br />
+4.상태가 업데이트되면 컴포넌트가 다시 렌더링된다.</p>
+</blockquote>
+
+<p><strong>이와 같이 useReducer를 사용하면 복잡한 상태 로직을 컴포넌트 내에서 효율적으로 관리할 수 있다.<br /> useReducer는 특히 상태 업데이트 로직이 복잡하거나 여러 액션 타입을 처리해야 할 때 유용하다.</strong></p>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="React" /><category term="React" /><category term="TypeScript" /><summary type="html"><![CDATA[Context API - Props Drilling]]></summary></entry><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day4</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(4)/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day4" /><published>2024-07-18T00:00:00+09:00</published><updated>2024-07-18T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(4)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(4)/"><![CDATA[<h2 id="-생성자-함수---프로토타입">🚀 생성자 함수 /  프로토타입</h2>
 <p><span><code class="language-plaintext highlighter-rouge">새로운 객체를 생성하고 초기화하는 함수</code></span></p>
 
 <blockquote>
@@ -2689,135 +2846,4 @@ const: 블록 스코프, 재선언 불가, 재할당 불가, 단, 객체나 배�
 </pre></td></tr></tbody></table></code></pre></div>    </div>
 
   </div>
-</details>]]></content><author><name></name></author><category term="프로젝트" /><category term="PETSTAGRAM" /><category term="React" /><category term="Spring Boot" /><category term="JWT" /><category term="Social Login" /><category term="Kakao" /><category term="OAuth2.0" /><summary type="html"><![CDATA[React + SpringBoot + Kakao 소셜 로그인 동작 과정]]></summary></entry><entry><title type="html">JWT + 카카오 소셜 로그인 (3)</title><link href="https://heominseok.github.io/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-(3)/" rel="alternate" type="text/html" title="JWT + 카카오 소셜 로그인 (3)" /><published>2024-06-11T00:00:00+09:00</published><updated>2024-06-11T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/JWT%20+%20%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EC%86%8C%EC%85%9C%20%EB%A1%9C%EA%B7%B8%EC%9D%B8%20(3)</id><content type="html" xml:base="https://heominseok.github.io/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-(3)/"><![CDATA[<style>
-  .flex-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  .image-container {
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .image-container img {
-    width: 300px;
-    height: 400px;
-  }
-  .caption {
-    text-align: center;
-    margin-top: 5px;
-  }
-  .responsive-link-card {
-    display: flex;
-    align-items: center;
-    border: 1px solid #d0d0d0;
-    border-radius: 8px;
-    overflow: hidden;
-    cursor: pointer;
-    text-decoration: none;
-    color: inherit;
-    margin-top: 20px;
-    padding: 10px;
-  }
-  
-  .responsive-link-card img {
-    width: 150px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-right: 15px;
-  }
-  
-  .responsive-link-content {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .responsive-link-content h2 {
-    margin: 0;
-    font-size: 1.2em;
-  }
-  
-  .responsive-link-content p {
-    margin: 5px 0 10px;
-    color: gray;
-    font-size: 0.9em;
-  }
-  
-  .responsive-link-content small {
-    color: #777;
-  }
-  
-  @media (max-width: 768px) {
-    .responsive-link-card {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    
-    .responsive-link-card img {
-      margin-right: 0;
-      margin-bottom: 10px;
-    }
-
-    .responsive-link-content {
-      width: 100%;
-    }
-  }
-</style>
-
-<div class="flex-container">
-  <div class="image-container">
-    <img src="/assets/img/posts/Petstagram-Project/kakao-login-main.png" alt="카카오 로그인 (1)" />
-    <div class="caption">카카오 로그인 (1)</div>
-  </div>
-  <div class="image-container">
-    <img src="/assets/img/posts/Petstagram-Project/kakao-login-sub.png" alt="카카오 로그인 (2)" />
-    <div class="caption">카카오 로그인 (2)</div>
-  </div>
-</div>
-
-<h2 id="1-카카오-디벨로퍼-설정">1. 카카오 디벨로퍼 설정</h2>
-
-<div class="responsive-link-card" onclick="window.open('https://developers.kakao.com/', '_blank');">
-  <div>
-    <img src="./assets/img/posts/Petstagram-Project/kakao-developer-logo.png" alt="kakao developers" />
-  </div>
-  <div class="responsive-link-content">
-    <h2>Kakao Developers</h2>
-    <p>Kakao</p>
-    <small>developers.kakao.com</small>
-  </div>
-</div>
-<p><br /></p>
-
-<blockquote>
-  <p>위의 링크에서 애플리케이션 등록을 해준다.</p>
-</blockquote>
-
-<p><img src="/assets/img/posts/Petstagram-Project/kakao-register-app.png" alt="Register Application" width="auto" height="589" />
-<em>애플리케이션 추가하기</em></p>
-
-<blockquote>
-  <p>플랫폼 ➡️ Web 등록</p>
-  <ul>
-    <li>본인의 React, SpringBoot 도메인 등록</li>
-    <li>기본 도메인은 카카오 서버에 먼저 요청을 보내는 React 도메인 입력</li>
-  </ul>
-</blockquote>
-
-<p><img src="/assets/img/posts/Petstagram-Project/kakao-register-platform.png" alt="Register PlatForm" width="auto" height="589" />
-<em>플랫폼 등록</em></p>
-
-<blockquote>
-  <p>Redirect URI 설정</p>
-</blockquote>
-
-<p><img src="/assets/img/posts/Petstagram-Project/kakao-register-callback.png" alt="Register Callback" width="auto" height="589" />
-<em>Redirect URI 등록</em></p>
-
-<h2 id="️redirect-uri란">❗️Redirect URI란?</h2>
-<ul>
-  <li>Redirect URI는 OAuth2.0 인가 과정을 완료한 후, 사용자의 인증 결과(인증 코드, 토큰 등)를 전달하기 위해 사용자를 리다이렉션하는 URL이다.</li>
-</ul>]]></content><author><name></name></author><category term="프로젝트" /><category term="PETSTAGRAM" /><category term="React" /><category term="Spring Boot" /><category term="JWT" /><category term="Social Login" /><category term="Kakao" /><category term="OAuth2.0" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+</details>]]></content><author><name></name></author><category term="프로젝트" /><category term="PETSTAGRAM" /><category term="React" /><category term="Spring Boot" /><category term="JWT" /><category term="Social Login" /><category term="Kakao" /><category term="OAuth2.0" /><summary type="html"><![CDATA[React + SpringBoot + Kakao 소셜 로그인 동작 과정]]></summary></entry></feed>

@@ -1,7 +1,7 @@
 [
   
   {
-    "title": "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 React",
+    "title": "[React + TypeScript] - Context API, useReducer",
     "url": "/posts/Context-API-+-Reducer-%EC%A0%95%EB%A6%AC/",
     "categories": "Next.js 직무교육, React",
     "tags": "React, TypeScript",
@@ -35,7 +35,7 @@
   },
   
   {
-    "title": "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day5-2",
+    "title": "[TypeScript] 기본 문법",
     "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(6)/",
     "categories": "Next.js 직무교육, TypeScript",
     "tags": "TypeScript",
@@ -52,7 +52,7 @@
   },
   
   {
-    "title": "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day5-1",
+    "title": "[JavaScript] - 기본 문법 (5)",
     "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(5)/",
     "categories": "Next.js 직무교육, JavaScript",
     "tags": "JavaScript",
@@ -69,7 +69,7 @@
   },
   
   {
-    "title": "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day4",
+    "title": "[JavaScript] - 기본 문법 (4)",
     "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(4)/",
     "categories": "Next.js 직무교육, JavaScript",
     "tags": "JavaScript",
@@ -86,7 +86,7 @@
   },
   
   {
-    "title": "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day3",
+    "title": "[JavaScript] - 기본 문법 (3)",
     "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(3)/",
     "categories": "Next.js 직무교육, JavaScript",
     "tags": "JavaScript",
@@ -103,7 +103,7 @@
   },
   
   {
-    "title": "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day2",
+    "title": "[JavaScript] - 기본 문법 (2)",
     "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(2)/",
     "categories": "Next.js 직무교육, JavaScript",
     "tags": "JavaScript",
@@ -120,7 +120,7 @@
   },
   
   {
-    "title": "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 Day1",
+    "title": "[JavaScript] - 기본 문법 (1) ",
     "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/",
     "categories": "Next.js 직무교육, JavaScript",
     "tags": "JavaScript",

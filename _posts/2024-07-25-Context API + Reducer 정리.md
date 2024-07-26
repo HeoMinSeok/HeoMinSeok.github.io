@@ -1,11 +1,69 @@
 ---
 title: "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 React"
-date: 2024-07-19
+date: 2024-07-25
 categories: [Next.js 직무교육, React]
 tags: 
   - React
   - TypeScript
 ---
+<style>
+  .responsive-link-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .responsive-link-card img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  
+  .responsive-link-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .responsive-link-content h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .responsive-link-content p {
+    margin: 5px 0 10px;
+    color: gray;
+    font-size: 0.9em;
+  }
+  
+  .responsive-link-content small {
+    color: #777;
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-link-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .responsive-link-card img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    .responsive-link-content {
+      width: 100%;
+    }
+  }
+</style>
 ![Context API - Props Drilling](/assets/img/posts/training/context-drilling.png)
 _Context API - Props Drilling_
 
@@ -20,7 +78,7 @@ _Context API - Props Drilling_
 이를 해결하기 위한 여러 방법들 중 `Context API`, `useReducer` 등이 있다.
 
 ## Context API란?
-<span>`일일이 props를 넘겨주지 않고 컴포넌트 트리 전체에 데이터를 제공할 수 있는데, 이를 통해서 Props-Drliing을 해결 가능`</span>
+<span>`일일이 props를 넘겨주지 않고 컴포넌트 트리 전체에 데이터를 제공할 수 있는데, 이를 통해서 Props-Drilling 해결 가능`</span>
 
 ### Context API의 주요 구성 요소
 
@@ -102,3 +160,19 @@ _useReducer Flow_
 > 4.상태가 업데이트되면 컴포넌트가 다시 렌더링된다.
    
 **이와 같이 useReducer를 사용하면 복잡한 상태 로직을 컴포넌트 내에서 효율적으로 관리할 수 있다.<br> useReducer는 특히 상태 업데이트 로직이 복잡하거나 여러 액션 타입을 처리해야 할 때 유용하다.**
+
+<br>
+
+### 예제 코드
+
+<div class="responsive-link-card" onclick="window.open('https://stackblitz.com/edit/vitejs-vite-genj61?file=src%2FApp.tsx', '_blank');">
+  <div>
+    <img src="./assets/img/posts/training/stack-blitz.webp" alt="stackblitz">
+  </div>
+  <div class="responsive-link-content">
+    <h2>Voiteks - Vote (forked)</h2>
+    <p>StackBlitz</p>
+    <small>stackbiltz.com</small>
+  </div>
+</div>
+<br>

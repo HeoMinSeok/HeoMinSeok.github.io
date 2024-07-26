@@ -1,5 +1,5 @@
 ---
-title: "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 직무교육 React"
+title: "[React + TypeScript] - Context API, useReducer"
 date: 2024-07-25
 categories: [Next.js 직무교육, React]
 tags: 

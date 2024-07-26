@@ -1,1 +1,1 @@
-# HeoMinSeok.github.io
+# https://heominseok.github.io/

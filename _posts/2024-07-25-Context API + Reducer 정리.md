@@ -1,7 +1,7 @@
 ---
 title: "[React + TypeScript] - Context API, useReducer"
 date: 2024-07-25
-categories: [Next.js 직무교육, React]
+categories: [📖, React]
 tags: 
   - React
   - TypeScript

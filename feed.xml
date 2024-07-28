@@ -1,4 +1,217 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://heominseok.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://heominseok.github.io/" rel="alternate" type="text/html" hreflang="ko-KR" /><updated>2024-07-26T11:30:44+09:00</updated><id>https://heominseok.github.io/feed.xml</id><title type="html">MINDDO</title><subtitle>MINDDO의 코딩 기록장</subtitle><entry><title type="html">[React + TypeScript] - Context API, useReducer</title><link href="https://heominseok.github.io/posts/Context-API-+-Reducer-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="[React + TypeScript] - Context API, useReducer" /><published>2024-07-25T00:00:00+09:00</published><updated>2024-07-25T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/Context%20API%20+%20Reducer%20%EC%A0%95%EB%A6%AC</id><content type="html" xml:base="https://heominseok.github.io/posts/Context-API-+-Reducer-%EC%A0%95%EB%A6%AC/"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://heominseok.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://heominseok.github.io/" rel="alternate" type="text/html" hreflang="ko-KR" /><updated>2024-07-29T01:06:49+09:00</updated><id>https://heominseok.github.io/feed.xml</id><title type="html">MINDDO</title><subtitle>MINDDO의 코딩 기록장</subtitle><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week2</title><link href="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80-(2)/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week2" /><published>2024-07-26T00:00:00+09:00</published><updated>2024-07-26T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80%20(2)</id><content type="html" xml:base="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80-(2)/"><![CDATA[<style>
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container img {
+    width: 100%;
+    height: 300px;
+  }
+  .caption {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .responsive-link-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .responsive-link-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  
+  .responsive-link-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .responsive-link-content h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .responsive-link-content p {
+    margin: 5px 0 10px;
+    color: gray;
+    font-size: 0.9em;
+  }
+  
+  .responsive-link-content small {
+    color: #777;
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-link-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .responsive-link-card img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    .responsive-link-content {
+      width: 100%;
+    }
+  }
+</style>
+
+<hr />
+
+<h2 id="2주차"><strong>2주차</strong></h2>
+
+<h3 id="20240722--20240726"><strong>2024.07.22 ~ 2024.07.26</strong></h3>
+
+<hr />
+
+<p><img src="/assets/img/posts/camp-review/udemy-main.png" alt="유데미x스나이퍼팩토리" /></p>
+
+<h2 id="-2주차-회고">🐥 2주차 회고</h2>
+
+<h3 id="-학습-내용">🐣 학습 내용</h3>
+
+<h3 id="1일차-react의-기본-개념-및-css-스타일링">1일차: React의 기본 개념 및 css 스타일링</h3>
+
+<ul>
+  <li>react 프로젝트 생성 (vite)</li>
+  <li>react 이론
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">리액트의 기본 개념 + virtual DOM</code></li>
+      <li><code class="language-plaintext highlighter-rouge">확장자</code></li>
+    </ul>
+  </li>
+  <li>react component
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">클래스, 함수 컴포넌트</code></li>
+      <li><code class="language-plaintext highlighter-rouge">컴포넌트 작성 방법</code></li>
+    </ul>
+  </li>
+  <li>컴포넌트 css 스타일링
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">inline, external, css-modules, tailwind, css-in-js</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="2일차-react-컴포넌트-기본-문법">2일차: React 컴포넌트 기본 문법</h3>
+
+<ul>
+  <li>컴포넌트 생성
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">함수형으로 생성</code></li>
+    </ul>
+  </li>
+  <li>컴포넌트 이벤트</li>
+  <li>컴포넌트 props
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">클릭 이벤트의 이해 및 props 전달 이해</code></li>
+    </ul>
+  </li>
+  <li>컴포넌트 children
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">UI 컴포넌트 작성하고, children props 이해</code></li>
+    </ul>
+  </li>
+  <li>tailwind-merge
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">클래스 충돌 해결 및 가독성 향상</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="3일차-react-컴포넌트-기본-문법-및-hook">3일차: React 컴포넌트 기본 문법 및 Hook</h3>
+
+<ul>
+  <li>렌더링
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">특정 상황일 때 (조건)일 때만, 렌더링 시키기 (if, 삼항 연산자, 논리 연산자, 즉시 실행 함수)</code></li>
+      <li><code class="language-plaintext highlighter-rouge">특정 컴폰넌트 반복 출력 이해</code></li>
+      <li><code class="language-plaintext highlighter-rouge">다양한 이미지 렌더링 이해</code></li>
+      <li><code class="language-plaintext highlighter-rouge">특정 컴폰넌트 반복 출력 이해</code></li>
+    </ul>
+  </li>
+  <li>Hook
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">useState : 리액트 상태 변수를 선언하고 관리</code></li>
+      <li><code class="language-plaintext highlighter-rouge">useId : 고유 id 생성 uuid</code></li>
+      <li><code class="language-plaintext highlighter-rouge">useRef : Dom 조작</code></li>
+    </ul>
+  </li>
+  <li>TodoList 구현
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">주어진 피그마 UI를 받아 직접 퍼블리싱</code></li>
+      <li><code class="language-plaintext highlighter-rouge">앞서 배운 이벤트, tailwind, hook 총 집합해서 구현</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="4일차-메모이제이션-context-api">4일차: 메모이제이션, Context API</h3>
+
+<ul>
+  <li>메모이제이션
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">useCallback의 이해</code></li>
+      <li><code class="language-plaintext highlighter-rouge">useMemo의 이해</code></li>
+      <li><code class="language-plaintext highlighter-rouge">React.memo의 이해</code></li>
+      <li><code class="language-plaintext highlighter-rouge">useRefucer의 이해</code></li>
+    </ul>
+  </li>
+  <li>Context API</li>
+</ul>
+
+<h3 id="5일차-zustand-및-api-통신-routing">5일차: Zustand 및 API 통신, Routing</h3>
+
+<ul>
+  <li>Zustand</li>
+  <li>useEffect</li>
+  <li>API 통신
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">json-server</code></li>
+      <li><code class="language-plaintext highlighter-rouge">fetch</code></li>
+    </ul>
+  </li>
+  <li>Routing <br /></li>
+</ul>
+
+<h2 id="-개인적인-소감">🐣 개인적인 소감</h2>
+<p>이번 주는 React를 복습하는 한 주였다. 내가 그동안 알고있던 내용들을 되짚어보는 시간이였고, 잘못 알고있던 내용들도 다시 정확하게 알아가는 시간이였다. 특히, 라우팅을 그동안 나는 구버전을 사용하고 있었는데, 이번 수업을 통해 새로운 버전을 익히게 되었다. 사실 구버전이 잘 돌아가길래 방식이 잘못된지 인지하지 못 하고 있었다. 그리고 기존에 JSX로만 리액트를 해왔었다. Zustand, Context API 등등, 평소에도 써왔었지만 tsx로는 처음이여서 타입 오류에 애를 먹었었다. 하지만, 강사님의 친절한 해설과 정확한 개념 설명을 통해 이제 타입 오류는 무섭지 않고 타입 선언 또한 자연스럽게 하고 있다…다음 주부터는 Next JS인데 많이 떨린다.. 잘 따라갔으면 좋겠다 !</p>
+
+<blockquote>
+  <p>학습 내용들의 정리는 React 카테고리에 ❗️<br /></p>
+</blockquote>
+
+<div class="responsive-link-card" onclick="window.open('https://heominseok.github.io/categories/react/', '_blank');">
+  <div>
+    <img src="./assets/img/chilbok.jpeg" alt="MINDDO 이미지" />
+  </div>
+  <div class="responsive-link-content">
+    <h2>MINDDO</h2>
+    <p>MINDDO의 코딩 기록장</p>
+    <small>heominseok.github.io</small>
+  </div>
+</div>
+<p><br /></p>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="회고록" /><category term="유데미" /><category term="udemy" /><category term="웅진씽크빅" /><category term="스나이퍼팩토리" /><category term="Next.js" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[React + TypeScript] - Context API, useReducer</title><link href="https://heominseok.github.io/posts/Context-API-+-Reducer-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="[React + TypeScript] - Context API, useReducer" /><published>2024-07-25T00:00:00+09:00</published><updated>2024-07-25T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/Context%20API%20+%20Reducer%20%EC%A0%95%EB%A6%AC</id><content type="html" xml:base="https://heominseok.github.io/posts/Context-API-+-Reducer-%EC%A0%95%EB%A6%AC/"><![CDATA[<style>
   .responsive-link-card {
     display: flex;
     align-items: center;
@@ -230,7 +443,7 @@
     <small>stackbiltz.com</small>
   </div>
 </div>
-<p><br /></p>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="React" /><category term="React" /><category term="TypeScript" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1</title><link href="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1" /><published>2024-07-20T00:00:00+09:00</published><updated>2024-07-20T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80</id><content type="html" xml:base="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/"><![CDATA[<style>
+<p><br /></p>]]></content><author><name></name></author><category term="📖" /><category term="React" /><category term="React" /><category term="TypeScript" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[React + TypeScript] - Zustand</title><link href="https://heominseok.github.io/posts/Zustand/" rel="alternate" type="text/html" title="[React + TypeScript] - Zustand" /><published>2024-07-25T00:00:00+09:00</published><updated>2024-07-25T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/Zustand</id><content type="html" xml:base="https://heominseok.github.io/posts/Zustand/"><![CDATA[]]></content><author><name></name></author><category term="📖" /><category term="React" /><category term="React" /><category term="TypeScript" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1</title><link href="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/" rel="alternate" type="text/html" title="[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week1" /><published>2024-07-20T00:00:00+09:00</published><updated>2024-07-20T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80</id><content type="html" xml:base="https://heominseok.github.io/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80/"><![CDATA[<style>
   .flex-container {
     display: flex;
     justify-content: space-between;
@@ -306,6 +519,7 @@
     .responsive-link-content {
       width: 100%;
     }
+  }
 </style>
 
 <hr />
@@ -527,7 +741,7 @@
   <span class="nx">element</span><span class="p">.</span><span class="nf">removeEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">handleClick</span><span class="p">);</span>
 </pre></td></tr></tbody></table></code></pre></div>    </div>
   </li>
-</ul>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[🚀 DOM DOM(Document Object Model)은 웹 페이지의 구조화된 표현으로, 자바스크립트를 사용하여 웹 페이지의 콘텐츠와 구조를 동적으로 조작할 수 있음]]></summary></entry><entry><title type="html">[TypeScript] 기본 문법</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(6)/" rel="alternate" type="text/html" title="[TypeScript] 기본 문법" /><published>2024-07-19T00:00:00+09:00</published><updated>2024-07-19T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(6)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(6)/"><![CDATA[<h4><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" /></h4>
+</ul>]]></content><author><name></name></author><category term="📖" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[🚀 DOM DOM(Document Object Model)은 웹 페이지의 구조화된 표현으로, 자바스크립트를 사용하여 웹 페이지의 콘텐츠와 구조를 동적으로 조작할 수 있음]]></summary></entry><entry><title type="html">[TypeScript] 기본 문법</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(6)/" rel="alternate" type="text/html" title="[TypeScript] 기본 문법" /><published>2024-07-19T00:00:00+09:00</published><updated>2024-07-19T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(6)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(6)/"><![CDATA[<h4><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" /></h4>
 
 <h3 id="1️⃣-타입스크립트-기본-타입">1️⃣ 타입스크립트 기본 타입</h3>
 
@@ -1310,7 +1524,7 @@
     </ul>
   </li>
   <li><code class="language-plaintext highlighter-rouge">printPlayerGoals</code> 함수를 호출 할 때, Player 인터페이스는 <code class="language-plaintext highlighter-rouge">name</code>과 <code class="language-plaintext highlighter-rouge">goals</code> 속성만 포함하고 있기때문에 함수에서 <code class="language-plaintext highlighter-rouge">player.team</code>에 접근하려 하면 타입스크립트는 <code class="language-plaintext highlighter-rouge">team</code> 속성이 인터페이스에 정의되어 있지 않아 에러가 발생하는데 이러한 것이 타입 제약이라고 함</li>
-</ul>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="TypeScript" /><category term="TypeScript" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[JavaScript] - 기본 문법 (4)</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(4)/" rel="alternate" type="text/html" title="[JavaScript] - 기본 문법 (4)" /><published>2024-07-18T00:00:00+09:00</published><updated>2024-07-18T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(4)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(4)/"><![CDATA[<h2 id="-생성자-함수---프로토타입">🚀 생성자 함수 /  프로토타입</h2>
+</ul>]]></content><author><name></name></author><category term="📖" /><category term="TypeScript" /><category term="TypeScript" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[JavaScript] - 기본 문법 (4)</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(4)/" rel="alternate" type="text/html" title="[JavaScript] - 기본 문법 (4)" /><published>2024-07-18T00:00:00+09:00</published><updated>2024-07-18T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(4)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(4)/"><![CDATA[<h2 id="-생성자-함수---프로토타입">🚀 생성자 함수 /  프로토타입</h2>
 <p><span><code class="language-plaintext highlighter-rouge">새로운 객체를 생성하고 초기화하는 함수</code></span></p>
 
 <blockquote>
@@ -1827,7 +2041,7 @@
   <span class="p">}</span>
 
   <span class="nf">fetchData</span><span class="p">();</span>
-</pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[🚀 생성자 함수 / 프로토타입 새로운 객체를 생성하고 초기화하는 함수]]></summary></entry><entry><title type="html">[JavaScript] - 기본 문법 (3)</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(3)/" rel="alternate" type="text/html" title="[JavaScript] - 기본 문법 (3)" /><published>2024-07-17T00:00:00+09:00</published><updated>2024-07-17T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(3)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(3)/"><![CDATA[<style>
+</pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name></name></author><category term="📖" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[🚀 생성자 함수 / 프로토타입 새로운 객체를 생성하고 초기화하는 함수]]></summary></entry><entry><title type="html">[JavaScript] - 기본 문법 (3)</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(3)/" rel="alternate" type="text/html" title="[JavaScript] - 기본 문법 (3)" /><published>2024-07-17T00:00:00+09:00</published><updated>2024-07-17T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(3)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(3)/"><![CDATA[<style>
   .declare, .expression, .arrow, .closure {
     color: #2593FF;
     font-weight: bold;
@@ -2212,7 +2426,7 @@
 <p><br /></p>
 
 <p>한’s 개발 블로그 - 컨텍스트 <br />
-<a href="https://hans-j.tistory.com/98">https://hans-j.tistory.com/98</a></p>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[JavaScript] - 기본 문법 (2)</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(2)/" rel="alternate" type="text/html" title="[JavaScript] - 기본 문법 (2)" /><published>2024-07-16T00:00:00+09:00</published><updated>2024-07-16T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(2)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(2)/"><![CDATA[<h2 id="-자료형의-종류">🚀 자료형의 종류</h2>
+<a href="https://hans-j.tistory.com/98">https://hans-j.tistory.com/98</a></p>]]></content><author><name></name></author><category term="📖" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">[JavaScript] - 기본 문법 (2)</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(2)/" rel="alternate" type="text/html" title="[JavaScript] - 기본 문법 (2)" /><published>2024-07-16T00:00:00+09:00</published><updated>2024-07-16T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC%20(2)</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(2)/"><![CDATA[<h2 id="-자료형의-종류">🚀 자료형의 종류</h2>
 <p><span><code class="language-plaintext highlighter-rouge">자료형은 프로그래밍에서 변수나 값이 가질 수 있는 데이터의 종류를 의미</code></span></p>
 
 <h3 id="1️⃣-기본-자료형">1️⃣ 기본 자료형</h3>
@@ -2441,7 +2655,7 @@
 
 <ul>
   <li>배열이나 문자열 같은 반복 가능한 객체의 값을 반복할 때 사용</li>
-</ul>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[🚀 자료형의 종류 자료형은 프로그래밍에서 변수나 값이 가질 수 있는 데이터의 종류를 의미]]></summary></entry><entry><title type="html">[JavaScript] - 기본 문법 (1)</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="[JavaScript] - 기본 문법 (1)" /><published>2024-07-15T00:00:00+09:00</published><updated>2024-07-15T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/"><![CDATA[<h2 id="-javascript를-실행-시키는-방법">🚀 JavaScript를 실행 시키는 방법</h2>
+</ul>]]></content><author><name></name></author><category term="📖" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[🚀 자료형의 종류 자료형은 프로그래밍에서 변수나 값이 가질 수 있는 데이터의 종류를 의미]]></summary></entry><entry><title type="html">[JavaScript] - 기본 문법 (1)</title><link href="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="[JavaScript] - 기본 문법 (1)" /><published>2024-07-15T00:00:00+09:00</published><updated>2024-07-15T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9%20%EC%A0%95%EB%A6%AC</id><content type="html" xml:base="https://heominseok.github.io/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/"><![CDATA[<h2 id="-javascript를-실행-시키는-방법">🚀 JavaScript를 실행 시키는 방법</h2>
 <h3 id="1️⃣-node-명령어를-사용">1️⃣ <strong>node</strong> 명령어를 사용</h3>
 <ol>
   <li>우선 실행시킬 js 파일로 이동한다.
@@ -2583,342 +2797,4 @@ const: 블록 스코프, 재선언 불가, 재할당 불가, 단, 객체나 배�
   <li>[] -&gt; 대괄호</li>
   <li>{} -&gt; 중괄호</li>
   <li>() -&gt; 소괄호</li>
-</ul>]]></content><author><name></name></author><category term="Next.js 직무교육" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[🚀 JavaScript를 실행 시키는 방법 1️⃣ node 명령어를 사용 우선 실행시킬 js 파일로 이동한다. 1 2 # ex cd Desktop/my-app/next-study.js node 명령어로 실행 1 node next-study.js]]></summary></entry><entry><title type="html">JWT + 카카오 소셜 로그인 (5)</title><link href="https://heominseok.github.io/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-(5)/" rel="alternate" type="text/html" title="JWT + 카카오 소셜 로그인 (5)" /><published>2024-06-13T00:00:00+09:00</published><updated>2024-06-13T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/JWT%20+%20%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EC%86%8C%EC%85%9C%20%EB%A1%9C%EA%B7%B8%EC%9D%B8%20(5)</id><content type="html" xml:base="https://heominseok.github.io/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-(5)/"><![CDATA[<h1 id="-server-side">📌 Server Side</h1>
-
-<h2 id="4-클라이언트로부터-전달-받은-인가-코드를-이용하여-카카오-서버에-토큰-요청">4. 클라이언트로부터 전달 받은 인가 코드를 이용하여 카카오 서버에 토큰 요청</h2>
-
-<ul>
-  <li>먼저 클라이언트로부터 인가 코드를 받아오는 엔드포인트에서, 카카오 서버에 액세스 토큰을 요청하는 서비스를 호출</li>
-</ul>
-
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td><td class="rouge-code"><pre><span class="cm">/* AuthController.java */</span>
-<span class="nd">@GetMapping</span><span class="o">(</span><span class="s">"/kakao"</span><span class="o">)</span>
-<span class="kd">public</span> <span class="nc">ResponseEntity</span><span class="o">&lt;</span><span class="nc">UserDTO</span><span class="o">&gt;</span> <span class="nf">kakaoLogin</span><span class="o">(</span><span class="nd">@RequestParam</span> <span class="nc">String</span> <span class="n">code</span><span class="o">)</span> <span class="o">{</span>
-  <span class="nc">UserDTO</span> <span class="n">userDTO</span> <span class="o">=</span> <span class="n">authService</span><span class="o">.</span><span class="na">kakaoLogin</span><span class="o">(</span><span class="n">code</span><span class="o">);</span>
-  <span class="k">return</span> <span class="nc">ResponseEntity</span><span class="o">.</span><span class="na">ok</span><span class="o">(</span><span class="n">userDTO</span><span class="o">);</span>
-<span class="o">}</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td><td class="rouge-code"><pre><span class="cm">/* AuthService - kakaoLogin 메소드 */</span>
-<span class="kd">public</span> <span class="nc">UserDTO</span> <span class="nf">kakaoLogin</span><span class="o">(</span><span class="nc">String</span> <span class="n">code</span><span class="o">)</span> <span class="o">{</span>
-  <span class="nc">KakaoTokenDto</span> <span class="n">kakaoTokenDto</span> <span class="o">=</span> <span class="n">getKakaoAccessToken</span><span class="o">(</span><span class="n">code</span><span class="o">);</span>
-  <span class="nc">String</span> <span class="n">accessToken</span> <span class="o">=</span> <span class="n">kakaoTokenDto</span><span class="o">.</span><span class="na">getAccess_token</span><span class="o">();</span>
-  <span class="cm">/* ··· */</span>
-<span class="o">}</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">getKakaoAccessToken</code> : 카카오 서버에 액세스 토큰 요청 부분</li>
-</ul>
-
-<details>
-<summary>코드 보기</summary>
-<div>
-
-    <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-</pre></td><td class="rouge-code"><pre><span class="cm">/* AuthService - getKakaoAccessToken 메소드 */</span>
-<span class="kd">public</span> <span class="nc">KakaoTokenDto</span> <span class="nf">getKakaoAccessToken</span><span class="o">(</span><span class="nc">String</span> <span class="n">code</span><span class="o">)</span> <span class="o">{</span>
-  <span class="nc">HttpHeaders</span> <span class="n">headers</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">HttpHeaders</span><span class="o">();</span>
-  <span class="n">headers</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="s">"Content-type"</span><span class="o">,</span> <span class="s">"application/x-www-form-urlencoded;charset=utf-8"</span><span class="o">);</span>
-
-  <span class="nc">MultiValueMap</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;</span> <span class="n">params</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">LinkedMultiValueMap</span><span class="o">&lt;&gt;();</span>
-  <span class="n">params</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="s">"grant_type"</span><span class="o">,</span> <span class="s">"authorization_code"</span><span class="o">);</span>
-  <span class="n">params</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="s">"client_id"</span><span class="o">,</span> <span class="no">KAKAO_CLIENT_ID</span><span class="o">);</span>
-  <span class="n">params</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="s">"redirect_uri"</span><span class="o">,</span> <span class="no">KAKAO_REDIRECT_URI</span><span class="o">);</span>
-  <span class="n">params</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="s">"code"</span><span class="o">,</span> <span class="n">code</span><span class="o">);</span>
-  <span class="n">params</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="s">"client_secret"</span><span class="o">,</span> <span class="no">KAKAO_CLIENT_SECRET</span><span class="o">);</span>
-
-  <span class="nc">HttpEntity</span><span class="o">&lt;</span><span class="nc">MultiValueMap</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;&gt;</span> <span class="n">request</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">HttpEntity</span><span class="o">&lt;&gt;(</span><span class="n">params</span><span class="o">,</span> <span class="n">headers</span><span class="o">);</span>
-  <span class="nc">RestTemplate</span> <span class="n">restTemplate</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">RestTemplate</span><span class="o">();</span>
-
-  <span class="nc">ResponseEntity</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;</span> <span class="n">response</span> <span class="o">=</span> <span class="n">restTemplate</span><span class="o">.</span><span class="na">exchange</span><span class="o">(</span>
-          <span class="s">"https://kauth.kakao.com/oauth/token"</span><span class="o">,</span>
-          <span class="nc">HttpMethod</span><span class="o">.</span><span class="na">POST</span><span class="o">,</span>
-          <span class="n">request</span><span class="o">,</span>
-          <span class="nc">String</span><span class="o">.</span><span class="na">class</span>
-  <span class="o">);</span>
-<span class="cm">/* ··· */</span>
-<span class="o">}</span>
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-
-  </div>
-</details>
-
-<h2 id="5-카카오-서버에서-백엔드-서버로-토큰-발행">5. 카카오 서버에서 백엔드 서버로 토큰 발행</h2>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">getKakaoAccessToken</code> : 카카오 서버로부터 액세스 토큰 발급 부분</li>
-</ul>
-<details>
-<summary>코드 보기</summary>
-<div>
-
-    <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-</pre></td><td class="rouge-code"><pre><span class="cm">/* AuthService - getKakaoAccessToken 메소드 */</span>
-<span class="kd">public</span> <span class="nc">KakaoTokenDto</span> <span class="nf">getKakaoAccessToken</span><span class="o">(</span><span class="nc">String</span> <span class="n">code</span><span class="o">)</span> <span class="o">{</span>
-  <span class="cm">/* ··· */</span>
-  <span class="nc">ObjectMapper</span> <span class="n">objectMapper</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ObjectMapper</span><span class="o">();</span>
-  <span class="n">objectMapper</span><span class="o">.</span><span class="na">registerModule</span><span class="o">(</span><span class="k">new</span> <span class="nc">JavaTimeModule</span><span class="o">());</span>
-  <span class="n">objectMapper</span><span class="o">.</span><span class="na">configure</span><span class="o">(</span><span class="n">DeserializationFeatureFAIL_ON_UNKNOWN_PROPERTIES</span><span class="o">,</span> <span class="kc">false</span><span class="o">);</span>
-
-  <span class="nc">KakaoTokenDto</span> <span class="n">kakaoTokenDto</span><span class="o">;</span>
-  <span class="k">try</span> <span class="o">{</span>
-    <span class="n">kakaoTokenDto</span> <span class="o">=</span> <span class="n">objectMapper</span><span class="o">.</span><span class="na">readValue</span><span class="o">(</span><span class="n">response</span><span class="o">.</span><span class="na">getBody</span><span class="o">(),</span> <span class="nc">KakaoTokenDto</span><span class="o">.</span><span class="na">class</span><span class="o">);</span>
-  <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="nc">Exception</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">throw</span> <span class="k">new</span> <span class="nf">RuntimeException</span><span class="o">(</span><span class="s">"카카오 토큰을 받아오는 데 실패했습니다."</span><span class="o">);</span>
-  <span class="o">}</span>
-
-  <span class="k">return</span> <span class="n">kakaoTokenDto</span><span class="o">;</span>
-<span class="o">}</span>
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-
-  </div>
-</details>
-
-<h2 id="6️-토큰-발급이-완료되면-사용자-정보-조회-후-jwt-토큰-생성">6.❗️ 토큰 발급이 완료되면 사용자 정보 조회 후 JWT 토큰 생성</h2>
-<details>
-<summary>코드 보기</summary>
-<div>
-
-    <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-</pre></td><td class="rouge-code"><pre><span class="cm">/* AuthService - kakaoLogin 메소드 */</span>
-<span class="kd">public</span> <span class="nc">UserDTO</span> <span class="nf">kakaoLogin</span><span class="o">(</span><span class="nc">String</span> <span class="n">code</span><span class="o">)</span> <span class="o">{</span>
-  <span class="nc">KakaoTokenDto</span> <span class="n">kakaoTokenDto</span> <span class="o">=</span> <span class="n">getKakaoAccessToken</span><span class="o">(</span><span class="n">code</span><span class="o">);</span>
-  <span class="nc">String</span> <span class="n">accessToken</span> <span class="o">=</span> <span class="n">kakaoTokenDto</span><span class="o">.</span><span class="na">getAccess_token</span><span class="o">();</span>
-
-  <span class="nc">KakaoAccountDto</span> <span class="n">kakaoUserInfoDto</span> <span class="o">=</span> <span class="n">getKakaoUserInfo</span><span class="o">(</span><span class="n">accessToken</span><span class="o">);</span>
-  <span class="cm">/* ··· */</span>
-  <span class="nc">UserEntity</span> <span class="n">user</span> <span class="o">=</span> <span class="n">userRepository</span><span class="o">.</span><span class="na">findByEmail</span><span class="o">(</span><span class="n">email</span><span class="o">).</span><span class="na">orElseGet</span><span class="o">(()</span> <span class="o">-&gt;</span> <span class="o">{</span>
-  <span class="cm">/* ··· */</span>
-  <span class="o">});</span>
-
-  <span class="nc">String</span> <span class="n">jwt</span> <span class="o">=</span> <span class="n">jwtUtils</span><span class="o">.</span><span class="na">generateToken</span><span class="o">(</span><span class="n">user</span><span class="o">);</span>
-  <span class="nc">String</span> <span class="n">refreshToken</span> <span class="o">=</span> <span class="n">jwtUtils</span><span class="o">.</span><span class="na">generateRefreshToken</span><span class="o">(</span><span class="k">new</span> <span class="nc">HashMap</span><span class="o">&lt;&gt;(),</span> <span class="n">user</span><span class="o">);</span>
-
-  <span class="nc">UserDTO</span> <span class="n">response</span> <span class="o">=</span> <span class="nc">UserDTO</span><span class="o">.</span><span class="na">toDTO</span><span class="o">(</span><span class="n">user</span><span class="o">);</span>
-  <span class="n">response</span><span class="o">.</span><span class="na">setToken</span><span class="o">(</span><span class="n">jwt</span><span class="o">);</span>
-  <span class="n">response</span><span class="o">.</span><span class="na">setRefreshToken</span><span class="o">(</span><span class="n">refreshToken</span><span class="o">);</span>
-
-  <span class="k">return</span> <span class="n">response</span><span class="o">;</span>
-<span class="o">}</span>
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-
-  </div>
-</details>
-
-<blockquote>
-  <ul>
-    <li>발급받은 <code class="language-plaintext highlighter-rouge">accessToken</code>을 사용하여 <code class="language-plaintext highlighter-rouge">getKakaoUserInfo</code> 메소드를 통해 카카오 서버의 사용자 정보를 조회</li>
-    <li>조회한 사용자 정보를 이용하여 DB에 해당 사용자 존재 여부 확인 후 사용자 처리</li>
-    <li>JWT 토큰 및 리프레시 토큰을 생성</li>
-    <li>UserDTO 객체를 생성 및 사용자 정보를 담고, 토큰을 설정하여 반환</li>
-  </ul>
-</blockquote>
-
-<h2 id="️-끝으로">✔️ 끝으로</h2>
-<ul>
-  <li>반환한 JWT 토큰을 클라이언트 쪽에서 받아서 사용자 로그인 처리를 완료한다.</li>
-  <li>이 과정은 클라이언트와 서버 간의 인증을 통해 사용자에게 보다 안전하고 편리한 로그인 경험을 제공한다.</li>
-  <li>또한, JWT 토큰을 사용함으로써 서버 간의 상태를 유지하지 않고도 인증을 처리할 수 있어 확장성과 보안성을 높일 수 있었다.</li>
-</ul>]]></content><author><name></name></author><category term="프로젝트" /><category term="PETSTAGRAM" /><category term="React" /><category term="Spring Boot" /><category term="JWT" /><category term="Social Login" /><category term="Kakao" /><category term="OAuth2.0" /><summary type="html"><![CDATA[📌 Server Side]]></summary></entry><entry><title type="html">JWT + 카카오 소셜 로그인 (4)</title><link href="https://heominseok.github.io/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-(4)/" rel="alternate" type="text/html" title="JWT + 카카오 소셜 로그인 (4)" /><published>2024-06-12T00:00:00+09:00</published><updated>2024-06-12T00:00:00+09:00</updated><id>https://heominseok.github.io/posts/JWT%20+%20%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EC%86%8C%EC%85%9C%20%EB%A1%9C%EA%B7%B8%EC%9D%B8%20(4)</id><content type="html" xml:base="https://heominseok.github.io/posts/JWT-+-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%86%8C%EC%85%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-(4)/"><![CDATA[<p><img src="/assets/img/posts/Petstagram-Project/react-springboot-social-login.png" alt="Login Flow Chart" width="auto" height="589" />
-<em>React + SpringBoot + Kakao 소셜 로그인 동작 과정</em></p>
-
-<h1 id="-client-side">📌 Client Side</h1>
-
-<h2 id="1-카카오-로그인-클릭--카카오-서버에-인가코드-요청">1. 카카오 로그인 클릭 ➡ <strong>카카오 서버에 인가코드 요청</strong></h2>
-
-<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="p">=</span><span class="si">{</span><span class="nx">KAKAO_AUTH_URL</span><span class="si">}</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">icons</span><span class="p">.</span><span class="nx">kakaoLogin</span><span class="si">}</span> <span class="na">alt</span><span class="p">=</span><span class="s">"KakaoLogo"</span> <span class="na">className</span><span class="p">=</span><span class="s">"kakao-login-icon"</span> <span class="p">/&gt;</span>
-<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td><td class="rouge-code"><pre><span class="kd">const</span> <span class="nx">CLIENT_ID</span> <span class="o">=</span> <span class="k">import</span><span class="p">.</span><span class="nx">meta</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">VITE_KAKAO_CLIENT_ID</span><span class="p">;</span>
-<span class="kd">const</span> <span class="nx">REDIRECT_URI</span> <span class="o">=</span> <span class="k">import</span><span class="p">.</span><span class="nx">meta</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">VITE_KAKAO_REDIRECT_URI</span><span class="p">;</span>
-
-<span class="k">export</span> <span class="kd">const</span> <span class="nx">KAKAO_AUTH_URL</span> <span class="o">=</span> <span class="s2">`https://kauth.kakao.com/oauth/authorize?client_id=</span><span class="p">${</span><span class="nx">CLIENT_ID</span><span class="p">}</span><span class="s2">&amp;redirect_uri=</span><span class="p">${</span><span class="nx">REDIRECT_URI</span><span class="p">}</span><span class="s2">&amp;response_type=code`</span><span class="p">;</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<blockquote>
-  <p>🐰 카카오 서버에 앱 키와 Redirect URI, 응답 유형을 포함하여 인가 코드를 요청하는데 이 요청은 사용자가 카카오 로그인 페이지에서 인증 및 동의를 완료한 후, 설정된 Redirect URI로 인가 코드를 전달받기 위한 것</p>
-</blockquote>
-
-<h2 id="2-설정한-redirect-uri인-loginoauth2callbackkakao-경로로-리다이렉션-하기-위한-kakaocallback-컴포넌트-라우트-설정">2. 설정한 Redirect URI인 <span style="color: #efdb4f">/login/oauth2/callback/kakao</span> 경로로 리다이렉션 하기 위한 KakaoCallback 컴포넌트 라우트 설정</h2>
-
-<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td><td class="rouge-code"><pre><span class="p">&lt;</span><span class="nc">Route</span>
-  <span class="na">path</span><span class="p">=</span><span class="s">"/login/oauth2/callback/kakao"</span>
-  <span class="na">element</span><span class="p">=</span><span class="si">{</span><span class="p">&lt;</span><span class="nc">KakaoCallback</span> <span class="na">setIsLoggedIn</span><span class="p">=</span><span class="si">{</span><span class="nx">setIsLoggedIn</span><span class="si">}</span> <span class="p">/&gt;</span><span class="si">}</span>
-<span class="p">/&gt;</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<h2 id="3-1-렌더링한-kakaocallback-컴포넌트에서-인가-코드-추출-및-사용자-처리">3-1. 렌더링한 <span style="color: #efdb4f">KakaoCallback</span> 컴포넌트에서 인가 코드 추출 및 사용자 처리</h2>
-
-<blockquote>
-  <p>이 컴포넌트에서는 URL에 포함된 인증 코드를 추출하여 백엔드 서버에 액세스 토큰을 요청하고, JWT 토큰을 받게되면 로컬 스토리지에 저장하고, 로그인 처리를 업데이트 한 후 메인 홈으로 네비게이션한다.</p>
-</blockquote>
-
-<details>
-<summary>코드 보기</summary>
-<div>
-
-    <div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-</pre></td><td class="rouge-code"><pre><span class="nf">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-  <span class="kd">const</span> <span class="nx">fetchKakaoToken</span> <span class="o">=</span> <span class="k">async </span><span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="kd">const</span> <span class="nx">code</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">URLSearchParams</span><span class="p">(</span><span class="nx">location</span><span class="p">.</span><span class="nx">search</span><span class="p">).</span><span class="nf">get</span><span class="p">(</span><span class="dl">"</span><span class="s2">code</span><span class="dl">"</span><span class="p">);</span>
-    <span class="k">if </span><span class="p">(</span><span class="nx">code</span><span class="p">)</span> <span class="p">{</span>
-      <span class="k">try</span> <span class="p">{</span>
-        <span class="kd">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">KakaoService</span><span class="p">.</span><span class="nf">getAccessToken</span><span class="p">(</span><span class="nx">code</span><span class="p">);</span>
-        <span class="kd">const</span> <span class="nx">token</span> <span class="o">=</span> <span class="nx">response</span><span class="p">.</span><span class="nx">token</span><span class="p">;</span>
-        <span class="k">if </span><span class="p">(</span><span class="nx">token</span><span class="p">)</span> <span class="p">{</span>
-          <span class="nx">localStorage</span><span class="p">.</span><span class="nf">setItem</span><span class="p">(</span><span class="dl">"</span><span class="s2">token</span><span class="dl">"</span><span class="p">,</span> <span class="nx">token</span><span class="p">);</span>
-          <span class="nf">setIsLoggedIn</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
-          <span class="nf">navigate</span><span class="p">(</span><span class="dl">"</span><span class="s2">/</span><span class="dl">"</span><span class="p">);</span>
-        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-          <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="dl">"</span><span class="s2">로그인 실패:</span><span class="dl">"</span><span class="p">,</span> <span class="nx">response</span><span class="p">.</span><span class="nx">message</span><span class="p">);</span>
-        <span class="p">}</span>
-      <span class="p">}</span> <span class="k">catch </span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="dl">"</span><span class="s2">카카오 로그인 에러:</span><span class="dl">"</span><span class="p">,</span> <span class="nx">error</span><span class="p">);</span>
-      <span class="p">}</span>
-    <span class="p">}</span>
-  <span class="p">};</span>
-  <span class="nf">fetchKakaoToken</span><span class="p">();</span>
-<span class="p">},</span> <span class="p">[</span><span class="nx">location</span><span class="p">,</span> <span class="nx">navigate</span><span class="p">,</span> <span class="nx">setIsLoggedIn</span><span class="p">]);</span>
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-
-  </div>
-</details>
-
-<h2 id="3-2-백엔드-서버로-인가-코드-전달">3-2. 백엔드 서버로 인가 코드 전달</h2>
-
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">KakaoService</code>는 인가 코드를 백엔드 서버로 전달하여 액세스 토큰을 요청</p>
-</blockquote>
-
-<details>
-<summary>코드 보기</summary>
-<div>
-
-    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td><td class="rouge-code"><pre><span class="kd">static</span> <span class="k">async</span> <span class="nf">getAccessToken</span><span class="p">(</span><span class="nx">code</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">try</span> <span class="p">{</span>
-      <span class="kd">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">axios</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span>
-        <span class="s2">`</span><span class="p">${</span><span class="nx">KakaoService</span><span class="p">.</span><span class="nx">BASE_URL</span><span class="p">}</span><span class="s2">/login/kakao?code=</span><span class="p">${</span><span class="nx">code</span><span class="p">}</span><span class="s2">`</span>
-      <span class="p">);</span>
-      <span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">data</span><span class="p">;</span>
-    <span class="p">}</span> <span class="k">catch </span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="dl">"</span><span class="s2">로그인 실패: </span><span class="dl">"</span><span class="p">,</span> <span class="nx">error</span><span class="p">.</span><span class="nx">message</span><span class="p">);</span>
-      <span class="k">throw</span> <span class="k">new</span> <span class="nc">Error</span><span class="p">(</span><span class="dl">"</span><span class="s2">로그인 실패: </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">error</span><span class="p">.</span><span class="nx">message</span><span class="p">);</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</pre></td></tr></tbody></table></code></pre></div>    </div>
-
-  </div>
-</details>]]></content><author><name></name></author><category term="프로젝트" /><category term="PETSTAGRAM" /><category term="React" /><category term="Spring Boot" /><category term="JWT" /><category term="Social Login" /><category term="Kakao" /><category term="OAuth2.0" /><summary type="html"><![CDATA[React + SpringBoot + Kakao 소셜 로그인 동작 과정]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="📖" /><category term="JavaScript" /><category term="JavaScript" /><summary type="html"><![CDATA[🚀 JavaScript를 실행 시키는 방법 1️⃣ node 명령어를 사용 우선 실행시킬 js 파일로 이동한다. 1 2 # ex cd Desktop/my-app/next-study.js node 명령어로 실행 1 node next-study.js]]></summary></entry></feed>

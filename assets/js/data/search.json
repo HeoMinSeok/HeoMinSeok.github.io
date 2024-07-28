@@ -1,9 +1,43 @@
 [
   
   {
+    "title": "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 2기 - 학습 일지 Week2",
+    "url": "/posts/%ED%95%99%EC%8A%B5%EC%9D%BC%EC%A7%80-(2)/",
+    "categories": "Next.js 직무교육, 회고록",
+    "tags": "유데미, udemy, 웅진씽크빅, 스나이퍼팩토리, Next.js",
+    "date": "2024-07-26 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "2주차2024.07.22 ~ 2024.07.26🐥 2주차 회고🐣 학습 내용1일차: React의 기본 개념 및 css 스타일링  react 프로젝트 생성 (vite)  react 이론          리액트의 기본 개념 + virtual DOM      확장자        react component          클래스, 함수 컴포넌트      컴포...",
+    "content": "2주차2024.07.22 ~ 2024.07.26🐥 2주차 회고🐣 학습 내용1일차: React의 기본 개념 및 css 스타일링  react 프로젝트 생성 (vite)  react 이론          리액트의 기본 개념 + virtual DOM      확장자        react component          클래스, 함수 컴포넌트      컴포넌트 작성 방법        컴포넌트 css 스타일링          inline, external, css-modules, tailwind, css-in-js      2일차: React 컴포넌트 기본 문법  컴포넌트 생성          함수형으로 생성        컴포넌트 이벤트  컴포넌트 props          클릭 이벤트의 이해 및 props 전달 이해        컴포넌트 children          UI 컴포넌트 작성하고, children props 이해        tailwind-merge          클래스 충돌 해결 및 가독성 향상      3일차: React 컴포넌트 기본 문법 및 Hook  렌더링          특정 상황일 때 (조건)일 때만, 렌더링 시키기 (if, 삼항 연산자, 논리 연산자, 즉시 실행 함수)      특정 컴폰넌트 반복 출력 이해      다양한 이미지 렌더링 이해      특정 컴폰넌트 반복 출력 이해        Hook          useState : 리액트 상태 변수를 선언하고 관리      useId : 고유 id 생성 uuid      useRef : Dom 조작        TodoList 구현          주어진 피그마 UI를 받아 직접 퍼블리싱      앞서 배운 이벤트, tailwind, hook 총 집합해서 구현      4일차: 메모이제이션, Context API  메모이제이션          useCallback의 이해      useMemo의 이해      React.memo의 이해      useRefucer의 이해        Context API5일차: Zustand 및 API 통신, Routing  Zustand  useEffect  API 통신          json-server      fetch        Routing 🐣 개인적인 소감이번 주는 React를 복습하는 한 주였다. 내가 그동안 알고있던 내용들을 되짚어보는 시간이였고, 잘못 알고있던 내용들도 다시 정확하게 알아가는 시간이였다. 특히, 라우팅을 그동안 나는 구버전을 사용하고 있었는데, 이번 수업을 통해 새로운 버전을 익히게 되었다. 사실 구버전이 잘 돌아가길래 방식이 잘못된지 인지하지 못 하고 있었다. 그리고 기존에 JSX로만 리액트를 해왔었다. Zustand, Context API 등등, 평소에도 써왔었지만 tsx로는 처음이여서 타입 오류에 애를 먹었었다. 하지만, 강사님의 친절한 해설과 정확한 개념 설명을 통해 이제 타입 오류는 무섭지 않고 타입 선언 또한 자연스럽게 하고 있다…다음 주부터는 Next JS인데 많이 떨린다.. 잘 따라갔으면 좋겠다 !  학습 내용들의 정리는 React 카테고리에 ❗️              MINDDO    MINDDO의 코딩 기록장    heominseok.github.io  "
+  },
+  
+  {
+    "title": "[React + TypeScript] - Zustand",
+    "url": "/posts/Zustand/",
+    "categories": "📖, React",
+    "tags": "React, TypeScript",
+    "date": "2024-07-25 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "",
+    "content": ""
+  },
+  
+  {
     "title": "[React + TypeScript] - Context API, useReducer",
     "url": "/posts/Context-API-+-Reducer-%EC%A0%95%EB%A6%AC/",
-    "categories": "Next.js 직무교육, React",
+    "categories": "📖, React",
     "tags": "React, TypeScript",
     "date": "2024-07-25 00:00:00 +0900",
     
@@ -37,7 +71,7 @@
   {
     "title": "[TypeScript] 기본 문법",
     "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(6)/",
-    "categories": "Next.js 직무교육, TypeScript",
+    "categories": "📖, TypeScript",
     "tags": "TypeScript",
     "date": "2024-07-19 00:00:00 +0900",
     
@@ -54,7 +88,7 @@
   {
     "title": "[JavaScript] - 기본 문법 (5)",
     "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(5)/",
-    "categories": "Next.js 직무교육, JavaScript",
+    "categories": "📖, JavaScript",
     "tags": "JavaScript",
     "date": "2024-07-19 00:00:00 +0900",
     
@@ -71,7 +105,7 @@
   {
     "title": "[JavaScript] - 기본 문법 (4)",
     "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(4)/",
-    "categories": "Next.js 직무교육, JavaScript",
+    "categories": "📖, JavaScript",
     "tags": "JavaScript",
     "date": "2024-07-18 00:00:00 +0900",
     
@@ -88,7 +122,7 @@
   {
     "title": "[JavaScript] - 기본 문법 (3)",
     "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(3)/",
-    "categories": "Next.js 직무교육, JavaScript",
+    "categories": "📖, JavaScript",
     "tags": "JavaScript",
     "date": "2024-07-17 00:00:00 +0900",
     
@@ -105,7 +139,7 @@
   {
     "title": "[JavaScript] - 기본 문법 (2)",
     "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC-(2)/",
-    "categories": "Next.js 직무교육, JavaScript",
+    "categories": "📖, JavaScript",
     "tags": "JavaScript",
     "date": "2024-07-16 00:00:00 +0900",
     
@@ -122,7 +156,7 @@
   {
     "title": "[JavaScript] - 기본 문법 (1) ",
     "url": "/posts/%EC%88%98%EC%97%85-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/",
-    "categories": "Next.js 직무교육, JavaScript",
+    "categories": "📖, JavaScript",
     "tags": "JavaScript",
     "date": "2024-07-15 00:00:00 +0900",
     
